@@ -76,6 +76,10 @@ Totes Ma Gotes</Property>
 			<Item Name="SERIAL_YPRCGlobal.vi" Type="VI" URL="../SERIAL/Internal/SERIAL_YPRCGlobal.vi"/>
 		</Item>
 		<Item Name="IO" Type="Folder">
+			<Item Name="NI WPI" Type="Folder">
+				<Item Name="WPI_SerialPort_USB.ctl" Type="VI" URL="../SERIAL/IO/NI WPI/WPI_SerialPort_USB.ctl"/>
+				<Item Name="WPI_SerialPortOpen_USB.vi" Type="VI" URL="../SERIAL/IO/NI WPI/WPI_SerialPortOpen_USB.vi"/>
+			</Item>
 			<Item Name="SERIAL_BufferLoop.vi" Type="VI" URL="../SERIAL/IO/SERIAL_BufferLoop.vi"/>
 			<Item Name="SERIAL_Close.vi" Type="VI" URL="../SERIAL/IO/SERIAL_Close.vi"/>
 			<Item Name="SERIAL_Open.vi" Type="VI" URL="../SERIAL/IO/SERIAL_Open.vi"/>
