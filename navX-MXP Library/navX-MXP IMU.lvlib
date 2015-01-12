@@ -84,10 +84,10 @@ Totes Ma Gotes</Property>
 			<Item Name="SERIAL_Close.vi" Type="VI" URL="../SERIAL/IO/SERIAL_Close.vi"/>
 			<Item Name="SERIAL_Open.vi" Type="VI" URL="../SERIAL/IO/SERIAL_Open.vi"/>
 		</Item>
-		<Item Name="Ref" Type="Folder">
-			<Item Name="SERIAL_GetRefnum.vi" Type="VI" URL="../SERIAL/Ref/SERIAL_GetRefnum.vi"/>
-			<Item Name="SERIAL_GetSetRefnum.vi" Type="VI" URL="../SERIAL/Ref/SERIAL_GetSetRefnum.vi"/>
-			<Item Name="SERIAL_SetRefnum.vi" Type="VI" URL="../SERIAL/Ref/SERIAL_SetRefnum.vi"/>
+		<Item Name="Refnum" Type="Folder">
+			<Item Name="SERIAL_GetRefnum.vi" Type="VI" URL="../SERIAL/Refnum/SERIAL_GetRefnum.vi"/>
+			<Item Name="SERIAL_GetSetRefnum.vi" Type="VI" URL="../SERIAL/Refnum/SERIAL_GetSetRefnum.vi"/>
+			<Item Name="SERIAL_SetRefnum.vi" Type="VI" URL="../SERIAL/Refnum/SERIAL_SetRefnum.vi"/>
 		</Item>
 		<Item Name="TypeDefs" Type="Folder">
 			<Item Name="navX Serial DevRef.ctl" Type="VI" URL="../SERIAL/Internal/navX Serial DevRef.ctl"/>
@@ -103,6 +103,7 @@ Totes Ma Gotes</Property>
 				<Item Name="SPI_GetRawMagnetometer.vi" Type="VI" URL="../SPI/Get/Raw/SPI_GetRawMagnetometer.vi"/>
 			</Item>
 			<Item Name="SPI_GetBoardInformation.vi" Type="VI" URL="../SPI/Get/SPI_GetBoardInformation.vi"/>
+			<Item Name="SPI_GetFusedHeading.vi" Type="VI" URL="../SPI/Get/SPI_GetFusedHeading.vi"/>
 			<Item Name="SPI_GetLinearAcceleration.vi" Type="VI" URL="../SPI/Get/SPI_GetLinearAcceleration.vi"/>
 			<Item Name="SPI_GetOffsets.vi" Type="VI" URL="../SPI/Get/SPI_GetOffsets.vi"/>
 			<Item Name="SPI_GetQuaternion.vi" Type="VI" URL="../SPI/Get/SPI_GetQuaternion.vi"/>
@@ -116,7 +117,7 @@ Totes Ma Gotes</Property>
 			<Item Name="SPI_Read.vi" Type="VI" URL="../SPI/IO/SPI_Read.vi"/>
 			<Item Name="SPI_Write.vi" Type="VI" URL="../SPI/IO/SPI_Write.vi"/>
 		</Item>
-		<Item Name="Ref" Type="Folder">
+		<Item Name="Refnum" Type="Folder">
 			<Item Name="SPI_GetRefnum.vi" Type="VI" URL="../SPI/Refnum/SPI_GetRefnum.vi"/>
 			<Item Name="SPI_GetSetRefnum.vi" Type="VI" URL="../SPI/Refnum/SPI_GetSetRefnum.vi"/>
 			<Item Name="SPI_SetRefnum.vi" Type="VI" URL="../SPI/Refnum/SPI_SetRefnum.vi"/>
