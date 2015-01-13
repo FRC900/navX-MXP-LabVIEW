@@ -62,6 +62,37 @@ Totes Ma Gotes</Property>
 			<Item Name="navX YPRH Data.ctl" Type="VI" URL="../COMMON/TypeDefs/navX YPRH Data.ctl"/>
 		</Item>
 	</Item>
+	<Item Name="I2C" Type="Folder">
+		<Item Name="Get" Type="Folder">
+			<Item Name="Raw" Type="Folder">
+				<Item Name="I2C_GetRawAcceleration.vi" Type="VI" URL="../I2C/Get/Raw/I2C_GetRawAcceleration.vi"/>
+				<Item Name="I2C_GetRawGyro.vi" Type="VI" URL="../I2C/Get/Raw/I2C_GetRawGyro.vi"/>
+				<Item Name="I2C_GetRawMagnetometer.vi" Type="VI" URL="../I2C/Get/Raw/I2C_GetRawMagnetometer.vi"/>
+			</Item>
+			<Item Name="I2C_GetAltitude.vi" Type="VI" URL="../I2C/Get/I2C_GetAltitude.vi"/>
+			<Item Name="I2C_GetBoardInformation.vi" Type="VI" URL="../I2C/Get/I2C_GetBoardInformation.vi"/>
+			<Item Name="I2C_GetFusedHeading.vi" Type="VI" URL="../I2C/Get/I2C_GetFusedHeading.vi"/>
+			<Item Name="I2C_GetLinearAcceleration.vi" Type="VI" URL="../I2C/Get/I2C_GetLinearAcceleration.vi"/>
+			<Item Name="I2C_GetOffsets.vi" Type="VI" URL="../I2C/Get/I2C_GetOffsets.vi"/>
+			<Item Name="I2C_GetQuaternion.vi" Type="VI" URL="../I2C/Get/I2C_GetQuaternion.vi"/>
+			<Item Name="I2C_GetStatus.vi" Type="VI" URL="../I2C/Get/I2C_GetStatus.vi"/>
+			<Item Name="I2C_GetYPRH.vi" Type="VI" URL="../I2C/Get/I2C_GetYPRH.vi"/>
+		</Item>
+		<Item Name="IO" Type="Folder">
+			<Item Name="I2C_Close.vi" Type="VI" URL="../I2C/IO/I2C_Close.vi"/>
+			<Item Name="I2C_Open.vi" Type="VI" URL="../I2C/IO/I2C_Open.vi"/>
+			<Item Name="I2C_Read.vi" Type="VI" URL="../I2C/IO/I2C_Read.vi"/>
+			<Item Name="I2C_Write.vi" Type="VI" URL="../I2C/IO/I2C_Write.vi"/>
+		</Item>
+		<Item Name="Refnum" Type="Folder">
+			<Item Name="I2C_GetRefnum.vi" Type="VI" URL="../I2C/Refnum/I2C_GetRefnum.vi"/>
+			<Item Name="I2C_GetSetRefnum.vi" Type="VI" URL="../I2C/Refnum/I2C_GetSetRefnum.vi"/>
+			<Item Name="I2C_SetRefnum.vi" Type="VI" URL="../I2C/Refnum/I2C_SetRefnum.vi"/>
+		</Item>
+		<Item Name="TypeDefs" Type="Folder">
+			<Item Name="navX I2C DevRef.ctl" Type="VI" URL="../I2C/TypeDefs/navX I2C DevRef.ctl"/>
+		</Item>
+	</Item>
 	<Item Name="SERIAL" Type="Folder">
 		<Item Name="Get" Type="Folder">
 			<Item Name="SERIAL_GetYPRH.vi" Type="VI" URL="../SERIAL/Get/SERIAL_GetYPRH.vi"/>
@@ -102,6 +133,7 @@ Totes Ma Gotes</Property>
 				<Item Name="SPI_GetRawGyro.vi" Type="VI" URL="../SPI/Get/Raw/SPI_GetRawGyro.vi"/>
 				<Item Name="SPI_GetRawMagnetometer.vi" Type="VI" URL="../SPI/Get/Raw/SPI_GetRawMagnetometer.vi"/>
 			</Item>
+			<Item Name="SPI_GetAltitude.vi" Type="VI" URL="../SPI/Get/SPI_GetAltitude.vi"/>
 			<Item Name="SPI_GetBoardInformation.vi" Type="VI" URL="../SPI/Get/SPI_GetBoardInformation.vi"/>
 			<Item Name="SPI_GetFusedHeading.vi" Type="VI" URL="../SPI/Get/SPI_GetFusedHeading.vi"/>
 			<Item Name="SPI_GetLinearAcceleration.vi" Type="VI" URL="../SPI/Get/SPI_GetLinearAcceleration.vi"/>
