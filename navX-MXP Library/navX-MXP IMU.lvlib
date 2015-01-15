@@ -48,18 +48,27 @@ Totes Ma Gotes</Property>
 
 </Property>
 	<Item Name="COMMON" Type="Folder">
+		<Item Name="Refnum" Type="Folder">
+			<Item Name="navX GetSetRefnum.vi" Type="VI" URL="../COMMON/Refnum/navX GetSetRefnum.vi"/>
+		</Item>
 		<Item Name="TypeDefs" Type="Folder">
-			<Item Name="navX Board Information.ctl" Type="VI" URL="../COMMON/TypeDefs/navX Board Information.ctl"/>
-			<Item Name="navX Device Registers.ctl" Type="VI" URL="../COMMON/TypeDefs/navX Device Registers.ctl"/>
-			<Item Name="navX NAVX_CAL_STATUS.ctl" Type="VI" URL="../COMMON/TypeDefs/navX NAVX_CAL_STATUS.ctl"/>
-			<Item Name="navX NAVX_OP_STATUS.ctl" Type="VI" URL="../COMMON/TypeDefs/navX NAVX_OP_STATUS.ctl"/>
-			<Item Name="navX NAVX_SELFTEST_STATUS.ctl" Type="VI" URL="../COMMON/TypeDefs/navX NAVX_SELFTEST_STATUS.ctl"/>
-			<Item Name="navX NAVX_SENSOR_STATUS.ctl" Type="VI" URL="../COMMON/TypeDefs/navX NAVX_SENSOR_STATUS.ctl"/>
-			<Item Name="navX Offsets Data.ctl" Type="VI" URL="../COMMON/TypeDefs/navX Offsets Data.ctl"/>
-			<Item Name="navX Quaternion Data.ctl" Type="VI" URL="../COMMON/TypeDefs/navX Quaternion Data.ctl"/>
-			<Item Name="navX Status Data.ctl" Type="VI" URL="../COMMON/TypeDefs/navX Status Data.ctl"/>
-			<Item Name="navX Vector Data.ctl" Type="VI" URL="../COMMON/TypeDefs/navX Vector Data.ctl"/>
-			<Item Name="navX YPRH Data.ctl" Type="VI" URL="../COMMON/TypeDefs/navX YPRH Data.ctl"/>
+			<Item Name="Data TypeDefs" Type="Folder">
+				<Item Name="navX Board Information.ctl" Type="VI" URL="../COMMON/TypeDefs/Data TypeDefs/navX Board Information.ctl"/>
+				<Item Name="navX Offsets Data.ctl" Type="VI" URL="../COMMON/TypeDefs/Data TypeDefs/navX Offsets Data.ctl"/>
+				<Item Name="navX Quaternion Data.ctl" Type="VI" URL="../COMMON/TypeDefs/Data TypeDefs/navX Quaternion Data.ctl"/>
+				<Item Name="navX Status Data.ctl" Type="VI" URL="../COMMON/TypeDefs/Data TypeDefs/navX Status Data.ctl"/>
+				<Item Name="navX Vector Data.ctl" Type="VI" URL="../COMMON/TypeDefs/Data TypeDefs/navX Vector Data.ctl"/>
+				<Item Name="navX YPRH Data.ctl" Type="VI" URL="../COMMON/TypeDefs/Data TypeDefs/navX YPRH Data.ctl"/>
+			</Item>
+			<Item Name="Value TypeDefs" Type="Folder">
+				<Item Name="navX Device Registers.ctl" Type="VI" URL="../COMMON/TypeDefs/Value TypeDefs/navX Device Registers.ctl"/>
+				<Item Name="navX Interface Protocol.ctl" Type="VI" URL="../COMMON/TypeDefs/Value TypeDefs/navX Interface Protocol.ctl"/>
+				<Item Name="navX NAVX_CAL_STATUS.ctl" Type="VI" URL="../COMMON/TypeDefs/Value TypeDefs/navX NAVX_CAL_STATUS.ctl"/>
+				<Item Name="navX NAVX_OP_STATUS.ctl" Type="VI" URL="../COMMON/TypeDefs/Value TypeDefs/navX NAVX_OP_STATUS.ctl"/>
+				<Item Name="navX NAVX_SELFTEST_STATUS.ctl" Type="VI" URL="../COMMON/TypeDefs/Value TypeDefs/navX NAVX_SELFTEST_STATUS.ctl"/>
+				<Item Name="navX NAVX_SENSOR_STATUS.ctl" Type="VI" URL="../COMMON/TypeDefs/Value TypeDefs/navX NAVX_SENSOR_STATUS.ctl"/>
+			</Item>
+			<Item Name="navX Device TypeDef.ctl" Type="VI" URL="../COMMON/TypeDefs/navX Device TypeDef.ctl"/>
 		</Item>
 	</Item>
 	<Item Name="I2C" Type="Folder">
