@@ -48,8 +48,34 @@ Totes Ma Gotes</Property>
 
 </Property>
 	<Item Name="COMMON" Type="Folder">
+		<Item Name="Get" Type="Folder">
+			<Item Name="Raw Data" Type="Folder">
+				<Item Name="GetRawAcceleration.vi" Type="VI" URL="../COMMON/Get/Raw Data/GetRawAcceleration.vi"/>
+				<Item Name="GetRawGyro.vi" Type="VI" URL="../COMMON/Get/Raw Data/GetRawGyro.vi"/>
+				<Item Name="GetRawMagnetometer.vi" Type="VI" URL="../COMMON/Get/Raw Data/GetRawMagnetometer.vi"/>
+			</Item>
+			<Item Name="System Information" Type="Folder">
+				<Item Name="GetBoardInformation.vi" Type="VI" URL="../COMMON/Get/System Information/GetBoardInformation.vi"/>
+				<Item Name="GetMPUTemp.vi" Type="VI" URL="../COMMON/Get/System Information/GetMPUTemp.vi"/>
+				<Item Name="GetOffsets.vi" Type="VI" URL="../COMMON/Get/System Information/GetOffsets.vi"/>
+				<Item Name="GetStatus.vi" Type="VI" URL="../COMMON/Get/System Information/GetStatus.vi"/>
+			</Item>
+			<Item Name="GetAltitude.vi" Type="VI" URL="../COMMON/Get/GetAltitude.vi"/>
+			<Item Name="GetFusedHeading.vi" Type="VI" URL="../COMMON/Get/GetFusedHeading.vi"/>
+			<Item Name="GetLinearAcceleration.vi" Type="VI" URL="../COMMON/Get/GetLinearAcceleration.vi"/>
+			<Item Name="GetQuaternion.vi" Type="VI" URL="../COMMON/Get/GetQuaternion.vi"/>
+			<Item Name="GetYPRH.vi" Type="VI" URL="../COMMON/Get/GetYPRH.vi"/>
+		</Item>
+		<Item Name="IO" Type="Folder">
+			<Item Name="navX Close.vi" Type="VI" URL="../COMMON/IO/navX Close.vi"/>
+			<Item Name="navX Open.vi" Type="VI" URL="../COMMON/IO/navX Open.vi"/>
+			<Item Name="navX Read.vi" Type="VI" URL="../COMMON/IO/navX Read.vi"/>
+			<Item Name="navX Write.vi" Type="VI" URL="../COMMON/IO/navX Write.vi"/>
+		</Item>
 		<Item Name="Refnum" Type="Folder">
+			<Item Name="navX GetRefnum.vi" Type="VI" URL="../COMMON/Refnum/navX GetRefnum.vi"/>
 			<Item Name="navX GetSetRefnum.vi" Type="VI" URL="../COMMON/Refnum/navX GetSetRefnum.vi"/>
+			<Item Name="navX SetRefnum.vi" Type="VI" URL="../COMMON/Refnum/navX SetRefnum.vi"/>
 		</Item>
 		<Item Name="TypeDefs" Type="Folder">
 			<Item Name="Data TypeDefs" Type="Folder">
@@ -67,6 +93,7 @@ Totes Ma Gotes</Property>
 				<Item Name="navX NAVX_OP_STATUS.ctl" Type="VI" URL="../COMMON/TypeDefs/Value TypeDefs/navX NAVX_OP_STATUS.ctl"/>
 				<Item Name="navX NAVX_SELFTEST_STATUS.ctl" Type="VI" URL="../COMMON/TypeDefs/Value TypeDefs/navX NAVX_SELFTEST_STATUS.ctl"/>
 				<Item Name="navX NAVX_SENSOR_STATUS.ctl" Type="VI" URL="../COMMON/TypeDefs/Value TypeDefs/navX NAVX_SENSOR_STATUS.ctl"/>
+				<Item Name="navX Update Rate.ctl" Type="VI" URL="../COMMON/TypeDefs/Value TypeDefs/navX Update Rate.ctl"/>
 			</Item>
 			<Item Name="navX Device TypeDef.ctl" Type="VI" URL="../COMMON/TypeDefs/navX Device TypeDef.ctl"/>
 		</Item>
@@ -108,8 +135,10 @@ Totes Ma Gotes</Property>
 		</Item>
 		<Item Name="Internal" Type="Folder">
 			<Item Name="SERIAL_CalculateChecksum.vi" Type="VI" URL="../SERIAL/Internal/SERIAL_CalculateChecksum.vi"/>
+			<Item Name="SERIAL_DecodeAHRSUpdatePacket.vi" Type="VI" URL="../SERIAL/Internal/SERIAL_DecodeAHRSUpdatePacket.vi"/>
 			<Item Name="SERIAL_DecodeStreamResponse.vi" Type="VI" URL="../SERIAL/Internal/SERIAL_DecodeStreamResponse.vi"/>
 			<Item Name="SERIAL_DecodeYPRUpdate.vi" Type="VI" URL="../SERIAL/Internal/SERIAL_DecodeYPRUpdate.vi"/>
+			<Item Name="SERIAL_DecodeYPRUpdatePacket.vi" Type="VI" URL="../SERIAL/Internal/SERIAL_DecodeYPRUpdatePacket.vi"/>
 			<Item Name="SERIAL_StartStreamCommand.vi" Type="VI" URL="../SERIAL/Internal/SERIAL_StartStreamCommand.vi"/>
 			<Item Name="SERIAL_StopLoop.vi" Type="VI" URL="../SERIAL/Internal/SERIAL_StopLoop.vi"/>
 			<Item Name="SERIAL_VerifyChecksum.vi" Type="VI" URL="../SERIAL/Internal/SERIAL_VerifyChecksum.vi"/>
