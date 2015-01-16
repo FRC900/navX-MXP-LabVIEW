@@ -59,6 +59,7 @@ Totes Ma Gotes</Property>
 				<Item Name="GetMPUTemp.vi" Type="VI" URL="../COMMON/Get/System Information/GetMPUTemp.vi"/>
 				<Item Name="GetOffsets.vi" Type="VI" URL="../COMMON/Get/System Information/GetOffsets.vi"/>
 				<Item Name="GetStatus.vi" Type="VI" URL="../COMMON/Get/System Information/GetStatus.vi"/>
+				<Item Name="GetTimestamp.vi" Type="VI" URL="../COMMON/Get/System Information/GetTimestamp.vi"/>
 			</Item>
 			<Item Name="GetAltitude.vi" Type="VI" URL="../COMMON/Get/GetAltitude.vi"/>
 			<Item Name="GetFusedHeading.vi" Type="VI" URL="../COMMON/Get/GetFusedHeading.vi"/>
@@ -99,34 +100,9 @@ Totes Ma Gotes</Property>
 		</Item>
 	</Item>
 	<Item Name="I2C" Type="Folder">
-		<Item Name="Get" Type="Folder">
-			<Item Name="Raw" Type="Folder">
-				<Item Name="I2C_GetRawAcceleration.vi" Type="VI" URL="../I2C/Get/Raw/I2C_GetRawAcceleration.vi"/>
-				<Item Name="I2C_GetRawGyro.vi" Type="VI" URL="../I2C/Get/Raw/I2C_GetRawGyro.vi"/>
-				<Item Name="I2C_GetRawMagnetometer.vi" Type="VI" URL="../I2C/Get/Raw/I2C_GetRawMagnetometer.vi"/>
-			</Item>
-			<Item Name="I2C_GetAltitude.vi" Type="VI" URL="../I2C/Get/I2C_GetAltitude.vi"/>
-			<Item Name="I2C_GetBoardInformation.vi" Type="VI" URL="../I2C/Get/I2C_GetBoardInformation.vi"/>
-			<Item Name="I2C_GetFusedHeading.vi" Type="VI" URL="../I2C/Get/I2C_GetFusedHeading.vi"/>
-			<Item Name="I2C_GetLinearAcceleration.vi" Type="VI" URL="../I2C/Get/I2C_GetLinearAcceleration.vi"/>
-			<Item Name="I2C_GetOffsets.vi" Type="VI" URL="../I2C/Get/I2C_GetOffsets.vi"/>
-			<Item Name="I2C_GetQuaternion.vi" Type="VI" URL="../I2C/Get/I2C_GetQuaternion.vi"/>
-			<Item Name="I2C_GetStatus.vi" Type="VI" URL="../I2C/Get/I2C_GetStatus.vi"/>
-			<Item Name="I2C_GetYPRH.vi" Type="VI" URL="../I2C/Get/I2C_GetYPRH.vi"/>
-		</Item>
 		<Item Name="IO" Type="Folder">
-			<Item Name="I2C_Close.vi" Type="VI" URL="../I2C/IO/I2C_Close.vi"/>
-			<Item Name="I2C_Open.vi" Type="VI" URL="../I2C/IO/I2C_Open.vi"/>
 			<Item Name="I2C_Read.vi" Type="VI" URL="../I2C/IO/I2C_Read.vi"/>
 			<Item Name="I2C_Write.vi" Type="VI" URL="../I2C/IO/I2C_Write.vi"/>
-		</Item>
-		<Item Name="Refnum" Type="Folder">
-			<Item Name="I2C_GetRefnum.vi" Type="VI" URL="../I2C/Refnum/I2C_GetRefnum.vi"/>
-			<Item Name="I2C_GetSetRefnum.vi" Type="VI" URL="../I2C/Refnum/I2C_GetSetRefnum.vi"/>
-			<Item Name="I2C_SetRefnum.vi" Type="VI" URL="../I2C/Refnum/I2C_SetRefnum.vi"/>
-		</Item>
-		<Item Name="TypeDefs" Type="Folder">
-			<Item Name="navX I2C DevRef.ctl" Type="VI" URL="../I2C/TypeDefs/navX I2C DevRef.ctl"/>
 		</Item>
 	</Item>
 	<Item Name="SERIAL" Type="Folder">
@@ -165,35 +141,10 @@ Totes Ma Gotes</Property>
 	</Item>
 	<Item Name="SPI" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
-		<Item Name="Get" Type="Folder">
-			<Item Name="Raw" Type="Folder">
-				<Item Name="SPI_GetRawAcceleration.vi" Type="VI" URL="../SPI/Get/Raw/SPI_GetRawAcceleration.vi"/>
-				<Item Name="SPI_GetRawGyro.vi" Type="VI" URL="../SPI/Get/Raw/SPI_GetRawGyro.vi"/>
-				<Item Name="SPI_GetRawMagnetometer.vi" Type="VI" URL="../SPI/Get/Raw/SPI_GetRawMagnetometer.vi"/>
-			</Item>
-			<Item Name="SPI_GetAltitude.vi" Type="VI" URL="../SPI/Get/SPI_GetAltitude.vi"/>
-			<Item Name="SPI_GetBoardInformation.vi" Type="VI" URL="../SPI/Get/SPI_GetBoardInformation.vi"/>
-			<Item Name="SPI_GetFusedHeading.vi" Type="VI" URL="../SPI/Get/SPI_GetFusedHeading.vi"/>
-			<Item Name="SPI_GetLinearAcceleration.vi" Type="VI" URL="../SPI/Get/SPI_GetLinearAcceleration.vi"/>
-			<Item Name="SPI_GetOffsets.vi" Type="VI" URL="../SPI/Get/SPI_GetOffsets.vi"/>
-			<Item Name="SPI_GetQuaternion.vi" Type="VI" URL="../SPI/Get/SPI_GetQuaternion.vi"/>
-			<Item Name="SPI_GetStatus.vi" Type="VI" URL="../SPI/Get/SPI_GetStatus.vi"/>
-			<Item Name="SPI_GetYPRH.vi" Type="VI" URL="../SPI/Get/SPI_GetYPRH.vi"/>
-		</Item>
 		<Item Name="IO" Type="Folder">
-			<Item Name="SPI_Close.vi" Type="VI" URL="../SPI/IO/SPI_Close.vi"/>
 			<Item Name="SPI_CRC.vi" Type="VI" URL="../SPI/IO/SPI_CRC.vi"/>
-			<Item Name="SPI_Open.vi" Type="VI" URL="../SPI/IO/SPI_Open.vi"/>
 			<Item Name="SPI_Read.vi" Type="VI" URL="../SPI/IO/SPI_Read.vi"/>
 			<Item Name="SPI_Write.vi" Type="VI" URL="../SPI/IO/SPI_Write.vi"/>
-		</Item>
-		<Item Name="Refnum" Type="Folder">
-			<Item Name="SPI_GetRefnum.vi" Type="VI" URL="../SPI/Refnum/SPI_GetRefnum.vi"/>
-			<Item Name="SPI_GetSetRefnum.vi" Type="VI" URL="../SPI/Refnum/SPI_GetSetRefnum.vi"/>
-			<Item Name="SPI_SetRefnum.vi" Type="VI" URL="../SPI/Refnum/SPI_SetRefnum.vi"/>
-		</Item>
-		<Item Name="TypeDefs" Type="Folder">
-			<Item Name="navX SPI DevRef.ctl" Type="VI" URL="../SPI/TypeDefs/navX SPI DevRef.ctl"/>
 		</Item>
 	</Item>
 </Library>

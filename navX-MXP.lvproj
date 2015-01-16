@@ -94,10 +94,8 @@ DirectoryIndex index.htm
 		<Item Name="navX-MXP Library" Type="Folder">
 			<Item Name="navX-MXP IMU.lvlib" Type="Library" URL="../navX-MXP Library/navX-MXP IMU.lvlib"/>
 		</Item>
-		<Item Name="I2C_TEST.vi" Type="VI" URL="../I2C_TEST.vi"/>
 		<Item Name="SERIAL_TEST.vi" Type="VI" URL="../SERIAL_TEST.vi"/>
 		<Item Name="SPI_I2C_TEST.vi" Type="VI" URL="../SPI_I2C_TEST.vi"/>
-		<Item Name="SPI_TEST.vi" Type="VI" URL="../SPI_TEST.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
@@ -193,7 +191,6 @@ DirectoryIndex index.htm
 				<Item Name="WPI_UtilitiesFRC FPGATime.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesFRC FPGATime.vi"/>
 			</Item>
 			<Item Name="navX Board Information.ctl" Type="VI" URL="../navX-MXP Library/COMMON/TypeDefs/navX Board Information.ctl"/>
-			<Item Name="navX Device Registers.ctl" Type="VI" URL="../navX-MXP Library/COMMON/TypeDefs/navX Device Registers.ctl"/>
 			<Item Name="navX NAVX_CAL_STATUS.ctl" Type="VI" URL="../navX-MXP Library/COMMON/TypeDefs/navX NAVX_CAL_STATUS.ctl"/>
 			<Item Name="navX NAVX_OP_STATUS.ctl" Type="VI" URL="../navX-MXP Library/COMMON/TypeDefs/navX NAVX_OP_STATUS.ctl"/>
 			<Item Name="navX NAVX_SENSOR_STATUS.ctl" Type="VI" URL="../navX-MXP Library/COMMON/TypeDefs/navX NAVX_SENSOR_STATUS.ctl"/>
