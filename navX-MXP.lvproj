@@ -94,8 +94,8 @@ DirectoryIndex index.htm
 		<Item Name="navX-MXP Library" Type="Folder">
 			<Item Name="navX-MXP IMU.lvlib" Type="Library" URL="../navX-MXP Library/navX-MXP IMU.lvlib"/>
 		</Item>
-		<Item Name="SERIAL_TEST.vi" Type="VI" URL="../SERIAL_TEST.vi"/>
-		<Item Name="SPI_I2C_TEST.vi" Type="VI" URL="../SPI_I2C_TEST.vi"/>
+		<Item Name="navX Example (SERIAL).vi" Type="VI" URL="../navX Example (SERIAL).vi"/>
+		<Item Name="navX Example (SPI - I2C).vi" Type="VI" URL="../navX Example (SPI - I2C).vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
