@@ -48,6 +48,7 @@ Totes Ma Gotes</Property>
 
 </Property>
 	<Item Name="COMMON" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Get" Type="Folder">
 			<Item Name="Raw Data" Type="Folder">
 				<Item Name="GetRawAcceleration.vi" Type="VI" URL="../COMMON/Get/Raw Data/GetRawAcceleration.vi"/>
@@ -75,9 +76,7 @@ Totes Ma Gotes</Property>
 		</Item>
 		<Item Name="Refnum" Type="Folder">
 			<Item Name="navX GetRefnum.vi" Type="VI" URL="../COMMON/Refnum/navX GetRefnum.vi"/>
-			<Item Name="navX GetSetRefnum.vi" Type="VI" URL="../COMMON/Refnum/navX GetSetRefnum.vi">
-				<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
-			</Item>
+			<Item Name="navX GetSetRefnum.vi" Type="VI" URL="../COMMON/Refnum/navX GetSetRefnum.vi"/>
 			<Item Name="navX SetRefnum.vi" Type="VI" URL="../COMMON/Refnum/navX SetRefnum.vi"/>
 		</Item>
 		<Item Name="TypeDefs" Type="Folder">
@@ -102,13 +101,14 @@ Totes Ma Gotes</Property>
 		</Item>
 	</Item>
 	<Item Name="I2C" Type="Folder">
-		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
+		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="IO" Type="Folder">
 			<Item Name="I2C_Read.vi" Type="VI" URL="../I2C/IO/I2C_Read.vi"/>
 			<Item Name="I2C_Write.vi" Type="VI" URL="../I2C/IO/I2C_Write.vi"/>
 		</Item>
 	</Item>
 	<Item Name="SERIAL" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Get" Type="Folder">
 			<Item Name="SERIAL_GetYPRH.vi" Type="VI" URL="../SERIAL/Get/SERIAL_GetYPRH.vi"/>
 		</Item>
@@ -143,7 +143,7 @@ Totes Ma Gotes</Property>
 		</Item>
 	</Item>
 	<Item Name="SPI" Type="Folder">
-		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
+		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="IO" Type="Folder">
 			<Item Name="SPI_CRC.vi" Type="VI" URL="../SPI/IO/SPI_CRC.vi"/>
 			<Item Name="SPI_Read.vi" Type="VI" URL="../SPI/IO/SPI_Read.vi"/>

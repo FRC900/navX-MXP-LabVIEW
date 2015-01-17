@@ -190,11 +190,6 @@ DirectoryIndex index.htm
 				<Item Name="WPI_UtilitiesFRC Build Error.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesFRC Build Error.vi"/>
 				<Item Name="WPI_UtilitiesFRC FPGATime.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesFRC FPGATime.vi"/>
 			</Item>
-			<Item Name="navX Board Information.ctl" Type="VI" URL="../navX-MXP Library/COMMON/TypeDefs/navX Board Information.ctl"/>
-			<Item Name="navX NAVX_CAL_STATUS.ctl" Type="VI" URL="../navX-MXP Library/COMMON/TypeDefs/navX NAVX_CAL_STATUS.ctl"/>
-			<Item Name="navX NAVX_OP_STATUS.ctl" Type="VI" URL="../navX-MXP Library/COMMON/TypeDefs/navX NAVX_OP_STATUS.ctl"/>
-			<Item Name="navX NAVX_SENSOR_STATUS.ctl" Type="VI" URL="../navX-MXP Library/COMMON/TypeDefs/navX NAVX_SENSOR_STATUS.ctl"/>
-			<Item Name="navX Status Data.ctl" Type="VI" URL="../navX-MXP Library/COMMON/TypeDefs/navX Status Data.ctl"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
