@@ -39,9 +39,8 @@ By James R Parks (FRC Team 900)
 
 
 Totes Ma Gotes</Property>
-	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
+	<Property Name="NI.Lib.HelpPath" Type="Str">Docs/navX-MXP_IMU_lvlib.html</Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!):!!!*Q(C=\&gt;4"&lt;=*!%)8BFSC(8/EAII5J)&lt;2!#^-#VRRJ96KA"6JY,&gt;!#,:$@SY#)F!1/C:)$.GP-7_`MB\WS.,:H[5G(;^PLN^N.`=@$BZ-_XNA`TE[@=_@&amp;C%`[_X#K=SRW_',]_(5?&gt;&gt;%O;6`W@`P`LWS[&lt;`@N&lt;\?XKYPUV^@MA[98%=WUIC5N.%VV-,H*47ZSEZO]S)O]S)O]S)M]S:-]S:-]S:-]S)-]S)-]S).]\/1C&amp;\H)):H*T53GK#FA,I9C=T!?YT%?Y_'HD-&gt;YD-&gt;YD)&gt;,:$T'9TT'9TQ-E`%9D`%9D`&amp;1;EA]&gt;H)]RE.Z&amp;:\#5XA+4_&amp;B3B7?!F"-6B1OCM"1U6G=&amp;*\#5XAY6?%J0)7H]"1?OF6Y#E`B+4S&amp;BS(DLN414$MZ(MII]33?R*.Y%A_FF8A34_**0)G([:2Y%E_#3#:-CE.1-CCZ)0G2?")08UI]C3@R**\%1^&gt;Y1DHOT+3:&gt;H)]A3@Q"*\!%XAII=!4?!*0Y!E]F&amp;8A#4S"*`!%(K:3Y!E]A3?!"*-SP9*CQ=$AIC!)0(T';IHRF'J)9OR3,V\VIF1P.P5C5C]/^5.80UTV1V,@@06.6&gt;]M^5V1`TEV7IV24[)?0&amp;WI0==&gt;&lt;5P&lt;U.;U&amp;7V*7^$GN.EU^)=PX/`XWOVWWG[XWGQW7K`87KV77C[87CQ7GM`HGMVGZ^@!#`PZB@!@XEP`QP#IS\L=IX@K*M4S!!!!!!</Property>
-	<Property Name="NI.Lib.Locked" Type="Str">locked</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">335577088</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.4.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
