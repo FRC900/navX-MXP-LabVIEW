@@ -70,6 +70,7 @@ Totes Ma Gotes</Property>
 			<Item Name="GetYPRH.vi" Type="VI" URL="../COMMON/Get/GetYPRH.vi"/>
 		</Item>
 		<Item Name="IO" Type="Folder">
+			<Item Name="navX Cached Read.vi" Type="VI" URL="../COMMON/IO/navX Cached Read.vi"/>
 			<Item Name="navX Close.vi" Type="VI" URL="../COMMON/IO/navX Close.vi"/>
 			<Item Name="navX Open.vi" Type="VI" URL="../COMMON/IO/navX Open.vi"/>
 			<Item Name="navX Read.vi" Type="VI" URL="../COMMON/IO/navX Read.vi"/>
@@ -79,6 +80,10 @@ Totes Ma Gotes</Property>
 			<Item Name="navX GetRefnum.vi" Type="VI" URL="../COMMON/Refnum/navX GetRefnum.vi"/>
 			<Item Name="navX GetSetRefnum.vi" Type="VI" URL="../COMMON/Refnum/navX GetSetRefnum.vi"/>
 			<Item Name="navX SetRefnum.vi" Type="VI" URL="../COMMON/Refnum/navX SetRefnum.vi"/>
+		</Item>
+		<Item Name="Set" Type="Folder">
+			<Item Name="ZeroDisplacement.vi" Type="VI" URL="../COMMON/Set/ZeroDisplacement.vi"/>
+			<Item Name="ZeroYaw.vi" Type="VI" URL="../COMMON/Set/ZeroYaw.vi"/>
 		</Item>
 		<Item Name="TypeDefs" Type="Folder">
 			<Item Name="Data TypeDefs" Type="Folder">
@@ -92,7 +97,10 @@ Totes Ma Gotes</Property>
 			<Item Name="Value TypeDefs" Type="Folder">
 				<Item Name="navX Device Registers.ctl" Type="VI" URL="../COMMON/TypeDefs/Value TypeDefs/navX Device Registers.ctl"/>
 				<Item Name="navX Interface Protocol.ctl" Type="VI" URL="../COMMON/TypeDefs/Value TypeDefs/navX Interface Protocol.ctl"/>
+				<Item Name="navX NAVX_BOARD_CAPABILITY.ctl" Type="VI" URL="../COMMON/TypeDefs/Value TypeDefs/navX NAVX_BOARD_CAPABILITY.ctl"/>
+				<Item Name="navX NAVX_BOARD_YAW_AXIS.ctl" Type="VI" URL="../COMMON/TypeDefs/Value TypeDefs/navX NAVX_BOARD_YAW_AXIS.ctl"/>
 				<Item Name="navX NAVX_CAL_STATUS.ctl" Type="VI" URL="../COMMON/TypeDefs/Value TypeDefs/navX NAVX_CAL_STATUS.ctl"/>
+				<Item Name="navX NAVX_CAPABILITY_FLAGS.ctl" Type="VI" URL="../COMMON/TypeDefs/Value TypeDefs/navX NAVX_CAPABILITY_FLAGS.ctl"/>
 				<Item Name="navX NAVX_OP_STATUS.ctl" Type="VI" URL="../COMMON/TypeDefs/Value TypeDefs/navX NAVX_OP_STATUS.ctl"/>
 				<Item Name="navX NAVX_SELFTEST_STATUS.ctl" Type="VI" URL="../COMMON/TypeDefs/Value TypeDefs/navX NAVX_SELFTEST_STATUS.ctl"/>
 				<Item Name="navX NAVX_SENSOR_STATUS.ctl" Type="VI" URL="../COMMON/TypeDefs/Value TypeDefs/navX NAVX_SENSOR_STATUS.ctl"/>
