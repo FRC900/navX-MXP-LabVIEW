@@ -56,6 +56,7 @@ Totes Ma Gotes</Property>
 				<Item Name="GetRawMagnetometer.vi" Type="VI" URL="../COMMON/Get/Raw Data/GetRawMagnetometer.vi"/>
 			</Item>
 			<Item Name="System Information" Type="Folder">
+				<Item Name="DecodeBoardCapability.vi" Type="VI" URL="../COMMON/Get/System Information/DecodeBoardCapability.vi"/>
 				<Item Name="GetBoardInformation.vi" Type="VI" URL="../COMMON/Get/System Information/GetBoardInformation.vi"/>
 				<Item Name="GetMPUTemp.vi" Type="VI" URL="../COMMON/Get/System Information/GetMPUTemp.vi"/>
 				<Item Name="GetOffsets.vi" Type="VI" URL="../COMMON/Get/System Information/GetOffsets.vi"/>
@@ -119,17 +120,41 @@ Totes Ma Gotes</Property>
 	<Item Name="SERIAL" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Get" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="Raw Data" Type="Folder">
+				<Item Name="SERIAL_GetRawAcceleration.vi" Type="VI" URL="../SERIAL/Get/Raw Data/SERIAL_GetRawAcceleration.vi"/>
+				<Item Name="SERIAL_GetRawGyro.vi" Type="VI" URL="../SERIAL/Get/Raw Data/SERIAL_GetRawGyro.vi"/>
+				<Item Name="SERIAL_GetRawMagnetometer.vi" Type="VI" URL="../SERIAL/Get/Raw Data/SERIAL_GetRawMagnetometer.vi"/>
+			</Item>
+			<Item Name="System Information" Type="Folder">
+				<Item Name="SERIAL_GetMPUTemp.vi" Type="VI" URL="../SERIAL/Get/SERIAL_GetMPUTemp.vi"/>
+				<Item Name="SERIAL_GetStatus.vi" Type="VI" URL="../SERIAL/Get/SERIAL_GetStatus.vi"/>
+				<Item Name="SERIAL_GetBoardInformation.vi" Type="VI" URL="../SERIAL/Get/SERIAL_GetBoardInformation.vi"/>
+			</Item>
+			<Item Name="SERIAL_GetAltitude.vi" Type="VI" URL="../SERIAL/Get/SERIAL_GetAltitude.vi"/>
+			<Item Name="SERIAL_GetDisplacement.vi" Type="VI" URL="../SERIAL/Get/SERIAL_GetDisplacement.vi"/>
+			<Item Name="SERIAL_GetFusedHeading.vi" Type="VI" URL="../SERIAL/Get/SERIAL_GetFusedHeading.vi"/>
+			<Item Name="SERIAL_GetLinearAcceleration.vi" Type="VI" URL="../SERIAL/Get/SERIAL_GetLinearAcceleration.vi"/>
+			<Item Name="SERIAL_GetQuaternion.vi" Type="VI" URL="../SERIAL/Get/SERIAL_GetQuaternion.vi"/>
 			<Item Name="SERIAL_GetYPRH.vi" Type="VI" URL="../SERIAL/Get/SERIAL_GetYPRH.vi"/>
 		</Item>
 		<Item Name="Internal" Type="Folder">
+			<Item Name="SERIAL_AHRSPosGlobal.vi" Type="VI" URL="../SERIAL/Internal/SERIAL_AHRSPosGlobal.vi"/>
+			<Item Name="SERIAL_BoardInfoRequest.vi" Type="VI" URL="../SERIAL/Internal/SERIAL_BoardInfoRequest.vi"/>
+			<Item Name="SERIAL_BoardStatusGlobal.vi" Type="VI" URL="../SERIAL/Internal/SERIAL_BoardStatusGlobal.vi"/>
 			<Item Name="SERIAL_CalculateChecksum.vi" Type="VI" URL="../SERIAL/Internal/SERIAL_CalculateChecksum.vi"/>
-			<Item Name="SERIAL_DecodeAHRSUpdatePacket.vi" Type="VI" URL="../SERIAL/Internal/SERIAL_DecodeAHRSUpdatePacket.vi"/>
+			<Item Name="SERIAL_DecodeASCIIPacket.vi" Type="VI" URL="../SERIAL/Internal/SERIAL_DecodeASCIIPacket.vi"/>
+			<Item Name="SERIAL_DecodeBinaryPacket.vi" Type="VI" URL="../SERIAL/Internal/SERIAL_DecodeBinaryPacket.vi"/>
+			<Item Name="SERIAL_DecodeBoardInfoResponse.vi" Type="VI" URL="../SERIAL/Internal/SERIAL_DecodeBoardInfoResponse.vi"/>
 			<Item Name="SERIAL_DecodeStreamResponse.vi" Type="VI" URL="../SERIAL/Internal/SERIAL_DecodeStreamResponse.vi"/>
-			<Item Name="SERIAL_DecodeYPRUpdate.vi" Type="VI" URL="../SERIAL/Internal/SERIAL_DecodeYPRUpdate.vi"/>
-			<Item Name="SERIAL_DecodeYPRUpdatePacket.vi" Type="VI" URL="../SERIAL/Internal/SERIAL_DecodeYPRUpdatePacket.vi"/>
+			<Item Name="SERIAL_GlobalYawOffset.vi" Type="VI" URL="../SERIAL/Internal/SERIAL_GlobalYawOffset.vi"/>
+			<Item Name="SERIAL_RawDataGlobal.vi" Type="VI" URL="../SERIAL/Internal/SERIAL_RawDataGlobal.vi"/>
+			<Item Name="SERIAL_ResetDisplacementCommand.vi" Type="VI" URL="../SERIAL/Internal/SERIAL_ResetDisplacementCommand.vi"/>
+			<Item Name="SERIAL_ResetYawCommand.vi" Type="VI" URL="../SERIAL/Internal/SERIAL_ResetYawCommand.vi"/>
 			<Item Name="SERIAL_StartStreamCommand.vi" Type="VI" URL="../SERIAL/Internal/SERIAL_StartStreamCommand.vi"/>
 			<Item Name="SERIAL_StopLoop.vi" Type="VI" URL="../SERIAL/Internal/SERIAL_StopLoop.vi"/>
 			<Item Name="SERIAL_VerifyChecksum.vi" Type="VI" URL="../SERIAL/Internal/SERIAL_VerifyChecksum.vi"/>
+			<Item Name="SERIAL_VerifyTermination.vi" Type="VI" URL="../SERIAL/Internal/SERIAL_VerifyTermination.vi"/>
 			<Item Name="SERIAL_YPRCGlobal.vi" Type="VI" URL="../SERIAL/Internal/SERIAL_YPRCGlobal.vi"/>
 		</Item>
 		<Item Name="IO" Type="Folder">
@@ -137,9 +162,10 @@ Totes Ma Gotes</Property>
 				<Item Name="WPI_SerialPort_USB.ctl" Type="VI" URL="../SERIAL/IO/NI WPI/WPI_SerialPort_USB.ctl"/>
 				<Item Name="WPI_SerialPortOpen_USB.vi" Type="VI" URL="../SERIAL/IO/NI WPI/WPI_SerialPortOpen_USB.vi"/>
 			</Item>
-			<Item Name="SERIAL_BufferLoop.vi" Type="VI" URL="../SERIAL/IO/SERIAL_BufferLoop.vi"/>
+			<Item Name="SERIAL_BufferLoopEx.vi" Type="VI" URL="../SERIAL/IO/SERIAL_BufferLoopEx.vi"/>
 			<Item Name="SERIAL_Close.vi" Type="VI" URL="../SERIAL/IO/SERIAL_Close.vi"/>
 			<Item Name="SERIAL_Open.vi" Type="VI" URL="../SERIAL/IO/SERIAL_Open.vi"/>
+			<Item Name="SERIAL_OpenInternal.vi" Type="VI" URL="../SERIAL/IO/SERIAL_OpenInternal.vi"/>
 		</Item>
 		<Item Name="Refnum" Type="Folder">
 			<Item Name="SERIAL_GetRefnum.vi" Type="VI" URL="../SERIAL/Refnum/SERIAL_GetRefnum.vi"/>
@@ -147,8 +173,11 @@ Totes Ma Gotes</Property>
 			<Item Name="SERIAL_SetRefnum.vi" Type="VI" URL="../SERIAL/Refnum/SERIAL_SetRefnum.vi"/>
 		</Item>
 		<Item Name="TypeDefs" Type="Folder">
+			<Item Name="navX AHRSPos Data.ctl" Type="VI" URL="../SERIAL/TypeDefs/navX AHRSPos Data.ctl"/>
+			<Item Name="navX Raw Data.ctl" Type="VI" URL="../SERIAL/TypeDefs/navX Raw Data.ctl"/>
 			<Item Name="navX Serial DevRef.ctl" Type="VI" URL="../SERIAL/Internal/navX Serial DevRef.ctl"/>
 			<Item Name="navX Serial Mode.ctl" Type="VI" URL="../SERIAL/TypeDefs/navX Serial Mode.ctl"/>
+			<Item Name="navxASCIIPacketHeaderTypes.ctl" Type="VI" URL="../SERIAL/TypeDefs/navxASCIIPacketHeaderTypes.ctl"/>
 		</Item>
 	</Item>
 	<Item Name="SPI" Type="Folder">
