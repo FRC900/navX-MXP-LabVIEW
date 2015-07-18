@@ -207,7 +207,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B3CF6FDB-4AE3-4974-9C3A-9BDDD350FC5A}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">navX-MXP.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/NI_AB_PROJECTNAME.lvlibp</Property>

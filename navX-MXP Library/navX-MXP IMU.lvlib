@@ -70,9 +70,9 @@ Totes Ma Gotes</Property>
 			<Item Name="GetYPRH.vi" Type="VI" URL="../COMMON/Get/GetYPRH.vi"/>
 		</Item>
 		<Item Name="IO" Type="Folder">
-			<Item Name="navX Cached Read.vi" Type="VI" URL="../COMMON/IO/navX Cached Read.vi"/>
 			<Item Name="navX Close.vi" Type="VI" URL="../COMMON/IO/navX Close.vi"/>
 			<Item Name="navX Open.vi" Type="VI" URL="../COMMON/IO/navX Open.vi"/>
+			<Item Name="navX Read (Cache).vi" Type="VI" URL="../COMMON/IO/navX Read (Cache).vi"/>
 			<Item Name="navX Read.vi" Type="VI" URL="../COMMON/IO/navX Read.vi"/>
 			<Item Name="navX Write.vi" Type="VI" URL="../COMMON/IO/navX Write.vi"/>
 		</Item>
