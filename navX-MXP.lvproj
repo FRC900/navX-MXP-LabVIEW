@@ -194,10 +194,10 @@ DirectoryIndex index.htm
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="navX-MXP" Type="Packed Library">
+			<Item Name="navX-MXP IMU" Type="Packed Library">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{D92F8FBF-265A-4DE5-A1A9-660C8E639498}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">navX-MXP</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">navX-MXP IMU</Property>
 				<Property Name="Bld_compilerOptLevel" Type="Int">0</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -207,10 +207,10 @@ DirectoryIndex index.htm
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B3CF6FDB-4AE3-4974-9C3A-9BDDD350FC5A}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">7</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">navX-MXP.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/NI_AB_PROJECTNAME.lvlibp</Property>
+				<Property Name="Destination[0].destName" Type="Str">navX-MXP IMU.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/navX-MXP IMU.lvlibp</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
@@ -218,7 +218,7 @@ DirectoryIndex index.htm
 				<Property Name="Destination[1].path" Type="Path">/home/lvuser/natinst/bin</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{082C4C4A-3BA8-4C0B-87F8-CA2B963FAF55}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{AFB09FAC-FE1E-4211-9858-6C56580F5A7F}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT roboRIO Target/navX-MXP Library/navX-MXP IMU.lvlib</Property>
@@ -230,12 +230,12 @@ DirectoryIndex index.htm
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">FRC Team 900</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">navX-MXP</Property>
-				<Property Name="TgtF_internalName" Type="Str">navX-MXP</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">navX-MXP IMU</Property>
+				<Property Name="TgtF_internalName" Type="Str">navX-MXP IMU</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2015 FRC Team 900</Property>
-				<Property Name="TgtF_productName" Type="Str">navX-MXP</Property>
+				<Property Name="TgtF_productName" Type="Str">navX-MXP IMU</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{AC8722B9-A9F0-46DC-99CF-A9B35DF02945}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">navX-MXP.lvlibp</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">navX-MXP IMU.lvlibp</Property>
 			</Item>
 		</Item>
 	</Item>

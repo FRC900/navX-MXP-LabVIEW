@@ -72,6 +72,7 @@ Totes Ma Gotes</Property>
 		<Item Name="IO" Type="Folder">
 			<Item Name="navX Close.vi" Type="VI" URL="../COMMON/IO/navX Close.vi"/>
 			<Item Name="navX Open.vi" Type="VI" URL="../COMMON/IO/navX Open.vi"/>
+			<Item Name="navX Re-open.vi" Type="VI" URL="../COMMON/IO/navX Re-open.vi"/>
 			<Item Name="navX Read (Cache).vi" Type="VI" URL="../COMMON/IO/navX Read (Cache).vi"/>
 			<Item Name="navX Read.vi" Type="VI" URL="../COMMON/IO/navX Read.vi"/>
 			<Item Name="navX Write.vi" Type="VI" URL="../COMMON/IO/navX Write.vi"/>
@@ -107,6 +108,9 @@ Totes Ma Gotes</Property>
 				<Item Name="navX Update Rate.ctl" Type="VI" URL="../COMMON/TypeDefs/Value TypeDefs/navX Update Rate.ctl"/>
 			</Item>
 			<Item Name="navX Device TypeDef.ctl" Type="VI" URL="../COMMON/TypeDefs/navX Device TypeDef.ctl"/>
+		</Item>
+		<Item Name="Util" Type="Folder">
+			<Item Name="RebootDetect.vi" Type="VI" URL="../COMMON/Util/RebootDetect.vi"/>
 		</Item>
 	</Item>
 	<Item Name="I2C" Type="Folder">
