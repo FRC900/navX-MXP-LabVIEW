@@ -189,7 +189,7 @@ DirectoryIndex index.htm
 				<Item Name="WPI_UtilitiesFRC Build Error.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesFRC Build Error.vi"/>
 				<Item Name="WPI_UtilitiesFRC FPGATime.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesFRC FPGATime.vi"/>
 			</Item>
-			<Item Name="navX Data Packet ID.ctl" Type="VI" URL="../navX-MXP Library/SERIAL/TypeDefs/navX Data Packet ID.ctl"/>
+			<Item Name="navX Serial DevRef.ctl" Type="VI" URL="../navX-MXP Library/SERIAL/Internal/navX Serial DevRef.ctl"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -208,7 +208,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B3CF6FDB-4AE3-4974-9C3A-9BDDD350FC5A}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">navX-MXP.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/NI_AB_PROJECTNAME.lvlibp</Property>
