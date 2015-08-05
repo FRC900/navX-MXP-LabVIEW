@@ -120,39 +120,47 @@ Totes Ma Gotes</Property>
 			<Item Name="I2C_Write.vi" Type="VI" URL="../I2C/IO/I2C_Write.vi"/>
 		</Item>
 	</Item>
+	<Item Name="NI WPI" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+		<Item Name="WPI_SerialPort_USB.ctl" Type="VI" URL="../NI WPI/WPI_SerialPort_USB.ctl"/>
+		<Item Name="WPI_SerialPortOpen_USB.vi" Type="VI" URL="../NI WPI/WPI_SerialPortOpen_USB.vi"/>
+	</Item>
 	<Item Name="SERIAL" Type="Folder">
+		<Item Name="IO" Type="Folder">
+			<Item Name="SERIAL_ProcessLoop.vi" Type="VI" URL="../SERIAL_ProcessLoop.vi"/>
+			<Item Name="SERIAL_Read.vi" Type="VI" URL="../SERIAL/IO/SERIAL_Read.vi"/>
+			<Item Name="SERIAL_Write.vi" Type="VI" URL="../SERIAL/IO/SERIAL_Write.vi"/>
+		</Item>
+	</Item>
+	<Item Name="SERIAL_ORIG" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Get" Type="Folder">
-			<Item Name="SERIAL_GetYPRH.vi" Type="VI" URL="../SERIAL/Get/SERIAL_GetYPRH.vi"/>
+			<Item Name="SERIAL_GetYPRH.vi" Type="VI" URL="../SERIAL_ORIG/Get/SERIAL_GetYPRH.vi"/>
 		</Item>
 		<Item Name="Internal" Type="Folder">
-			<Item Name="SERIAL_CalculateChecksum.vi" Type="VI" URL="../SERIAL/Internal/SERIAL_CalculateChecksum.vi"/>
-			<Item Name="SERIAL_DecodeAHRSUpdatePacket.vi" Type="VI" URL="../SERIAL/Internal/SERIAL_DecodeAHRSUpdatePacket.vi"/>
-			<Item Name="SERIAL_DecodeStreamResponse.vi" Type="VI" URL="../SERIAL/Internal/SERIAL_DecodeStreamResponse.vi"/>
-			<Item Name="SERIAL_DecodeYPRUpdate.vi" Type="VI" URL="../SERIAL/Internal/SERIAL_DecodeYPRUpdate.vi"/>
-			<Item Name="SERIAL_DecodeYPRUpdatePacket.vi" Type="VI" URL="../SERIAL/Internal/SERIAL_DecodeYPRUpdatePacket.vi"/>
-			<Item Name="SERIAL_StartStreamCommand.vi" Type="VI" URL="../SERIAL/Internal/SERIAL_StartStreamCommand.vi"/>
-			<Item Name="SERIAL_StopLoop.vi" Type="VI" URL="../SERIAL/Internal/SERIAL_StopLoop.vi"/>
-			<Item Name="SERIAL_VerifyChecksum.vi" Type="VI" URL="../SERIAL/Internal/SERIAL_VerifyChecksum.vi"/>
-			<Item Name="SERIAL_YPRCGlobal.vi" Type="VI" URL="../SERIAL/Internal/SERIAL_YPRCGlobal.vi"/>
+			<Item Name="SERIAL_CalculateChecksum.vi" Type="VI" URL="../SERIAL_ORIG/Internal/SERIAL_CalculateChecksum.vi"/>
+			<Item Name="SERIAL_DecodeAHRSUpdatePacket.vi" Type="VI" URL="../SERIAL_ORIG/Internal/SERIAL_DecodeAHRSUpdatePacket.vi"/>
+			<Item Name="SERIAL_DecodeStreamResponse.vi" Type="VI" URL="../SERIAL_ORIG/Internal/SERIAL_DecodeStreamResponse.vi"/>
+			<Item Name="SERIAL_DecodeYPRUpdate.vi" Type="VI" URL="../SERIAL_ORIG/Internal/SERIAL_DecodeYPRUpdate.vi"/>
+			<Item Name="SERIAL_DecodeYPRUpdatePacket.vi" Type="VI" URL="../SERIAL_ORIG/Internal/SERIAL_DecodeYPRUpdatePacket.vi"/>
+			<Item Name="SERIAL_StartStreamCommand.vi" Type="VI" URL="../SERIAL_ORIG/Internal/SERIAL_StartStreamCommand.vi"/>
+			<Item Name="SERIAL_StopLoop.vi" Type="VI" URL="../SERIAL_ORIG/Internal/SERIAL_StopLoop.vi"/>
+			<Item Name="SERIAL_VerifyChecksum.vi" Type="VI" URL="../SERIAL_ORIG/Internal/SERIAL_VerifyChecksum.vi"/>
+			<Item Name="SERIAL_YPRCGlobal.vi" Type="VI" URL="../SERIAL_ORIG/Internal/SERIAL_YPRCGlobal.vi"/>
 		</Item>
 		<Item Name="IO" Type="Folder">
-			<Item Name="NI WPI" Type="Folder">
-				<Item Name="WPI_SerialPort_USB.ctl" Type="VI" URL="../SERIAL/IO/NI WPI/WPI_SerialPort_USB.ctl"/>
-				<Item Name="WPI_SerialPortOpen_USB.vi" Type="VI" URL="../SERIAL/IO/NI WPI/WPI_SerialPortOpen_USB.vi"/>
-			</Item>
-			<Item Name="SERIAL_BufferLoop.vi" Type="VI" URL="../SERIAL/IO/SERIAL_BufferLoop.vi"/>
-			<Item Name="SERIAL_Close.vi" Type="VI" URL="../SERIAL/IO/SERIAL_Close.vi"/>
-			<Item Name="SERIAL_Open.vi" Type="VI" URL="../SERIAL/IO/SERIAL_Open.vi"/>
+			<Item Name="SERIAL_BufferLoop.vi" Type="VI" URL="../SERIAL_ORIG/IO/SERIAL_BufferLoop.vi"/>
+			<Item Name="SERIAL_Close.vi" Type="VI" URL="../SERIAL_ORIG/IO/SERIAL_Close.vi"/>
+			<Item Name="SERIAL_Open.vi" Type="VI" URL="../SERIAL_ORIG/IO/SERIAL_Open.vi"/>
 		</Item>
 		<Item Name="Refnum" Type="Folder">
-			<Item Name="SERIAL_GetRefnum.vi" Type="VI" URL="../SERIAL/Refnum/SERIAL_GetRefnum.vi"/>
-			<Item Name="SERIAL_GetSetRefnum.vi" Type="VI" URL="../SERIAL/Refnum/SERIAL_GetSetRefnum.vi"/>
-			<Item Name="SERIAL_SetRefnum.vi" Type="VI" URL="../SERIAL/Refnum/SERIAL_SetRefnum.vi"/>
+			<Item Name="SERIAL_GetRefnum.vi" Type="VI" URL="../SERIAL_ORIG/Refnum/SERIAL_GetRefnum.vi"/>
+			<Item Name="SERIAL_GetSetRefnum.vi" Type="VI" URL="../SERIAL_ORIG/Refnum/SERIAL_GetSetRefnum.vi"/>
+			<Item Name="SERIAL_SetRefnum.vi" Type="VI" URL="../SERIAL_ORIG/Refnum/SERIAL_SetRefnum.vi"/>
 		</Item>
 		<Item Name="TypeDefs" Type="Folder">
-			<Item Name="navX Serial DevRef.ctl" Type="VI" URL="../SERIAL/Internal/navX Serial DevRef.ctl"/>
-			<Item Name="navX Serial Mode.ctl" Type="VI" URL="../SERIAL/TypeDefs/navX Serial Mode.ctl"/>
+			<Item Name="navX Serial DevRef.ctl" Type="VI" URL="../SERIAL_ORIG/Internal/navX Serial DevRef.ctl"/>
+			<Item Name="navX Serial Mode.ctl" Type="VI" URL="../SERIAL_ORIG/TypeDefs/navX Serial Mode.ctl"/>
 		</Item>
 	</Item>
 	<Item Name="SPI" Type="Folder">
