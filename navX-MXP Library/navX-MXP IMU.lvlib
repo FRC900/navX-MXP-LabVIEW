@@ -129,10 +129,25 @@ Totes Ma Gotes</Property>
 	</Item>
 	<Item Name="SERIAL" Type="Folder">
 		<Item Name="Internal" Type="Folder">
-			<Item Name="SERIAL_DecodeASCII.vi" Type="VI" URL="../SERIAL/Internal/SERIAL_DecodeASCII.vi"/>
-			<Item Name="SERIAL_DecodeBinary.vi" Type="VI" URL="../SERIAL/Internal/SERIAL_DecodeBinary.vi"/>
-			<Item Name="SERIAL_ValidateChecksum.vi" Type="VI" URL="../SERIAL/Internal/SERIAL_ValidateChecksum.vi"/>
-			<Item Name="SERIAL_ValidateTermination.vi" Type="VI" URL="../SERIAL/Internal/SERIAL_ValidateTermination.vi"/>
+			<Item Name="DECODE" Type="Folder">
+				<Item Name="SERIAL_DecodeASCII.vi" Type="VI" URL="../SERIAL/Internal/SERIAL_DecodeASCII.vi"/>
+				<Item Name="SERIAL_DecodeBinary.vi" Type="VI" URL="../SERIAL/Internal/SERIAL_DecodeBinary.vi"/>
+				<Item Name="SERIAL_DecodeBoardInfo.vi" Type="VI" URL="../SERIAL/Internal/SERIAL_DecodeBoardInfo.vi"/>
+			</Item>
+			<Item Name="ENCODE" Type="Folder">
+				<Item Name="SERIAL_CalculateChecksum.vi" Type="VI" URL="../SERIAL/Internal/SERIAL_CalculateChecksum.vi"/>
+			</Item>
+			<Item Name="INITIALIZE" Type="Folder">
+				<Item Name="SERIAL_Initialize.vi" Type="VI" URL="../SERIAL/Internal/SERIAL_Initialize.vi"/>
+				<Item Name="SERIAL_RequestBoardInfo.vi" Type="VI" URL="../SERIAL/Internal/SERIAL_RequestBoardInfo.vi"/>
+				<Item Name="SERIAL_StartProcessLoop.vi" Type="VI" URL="../SERIAL/Internal/SERIAL_StartProcessLoop.vi"/>
+				<Item Name="SERIAL_StartStream.vi" Type="VI" URL="../SERIAL/Internal/SERIAL_StartStream.vi"/>
+			</Item>
+			<Item Name="VALIDATE" Type="Folder">
+				<Item Name="SERIAL_ValidateChecksum.vi" Type="VI" URL="../SERIAL/Internal/SERIAL_ValidateChecksum.vi"/>
+				<Item Name="SERIAL_ValidateTermination.vi" Type="VI" URL="../SERIAL/Internal/SERIAL_ValidateTermination.vi"/>
+			</Item>
+			<Item Name="SERIAL_StoreBuffer.vi" Type="VI" URL="../SERIAL/Internal/SERIAL_StoreBuffer.vi"/>
 		</Item>
 		<Item Name="IO" Type="Folder">
 			<Item Name="SERIAL_ProcessLoop.vi" Type="VI" URL="../SERIAL_ProcessLoop.vi"/>

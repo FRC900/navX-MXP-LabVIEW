@@ -94,8 +94,7 @@ DirectoryIndex index.htm
 		<Item Name="navX-MXP Library" Type="Folder">
 			<Item Name="navX-MXP IMU.lvlib" Type="Library" URL="../navX-MXP Library/navX-MXP IMU.lvlib"/>
 		</Item>
-		<Item Name="navX Example (SERIAL).vi" Type="VI" URL="../navX Example (SERIAL).vi"/>
-		<Item Name="navX Example (SPI - I2C).vi" Type="VI" URL="../navX Example (SPI - I2C).vi"/>
+		<Item Name="navX Example.vi" Type="VI" URL="../navX Example.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
@@ -168,7 +167,6 @@ DirectoryIndex index.htm
 				<Item Name="WPI_MXP_ChannelCache.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/MXP/WPI_MXP_ChannelCache.vi"/>
 				<Item Name="WPI_PWMChannelCacheOp.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/WPI_PWMChannelCacheOp.ctl"/>
 				<Item Name="WPI_SerialPort.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SerialPort/WPI_SerialPort.ctl"/>
-				<Item Name="WPI_SerialPortClose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SerialPort/WPI_SerialPortClose.vi"/>
 				<Item Name="WPI_SerialPortFlush.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SerialPort/WPI_SerialPortFlush.vi"/>
 				<Item Name="WPI_SerialPortGetBytesReceived.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SerialPort/WPI_SerialPortGetBytesReceived.vi"/>
 				<Item Name="WPI_SerialPortOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SerialPort/WPI_SerialPortOpen.vi"/>
@@ -191,22 +189,9 @@ DirectoryIndex index.htm
 				<Item Name="WPI_UtilitiesFRC Build Error.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesFRC Build Error.vi"/>
 				<Item Name="WPI_UtilitiesFRC FPGATime.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesFRC FPGATime.vi"/>
 			</Item>
-			<Item Name="navX Serial DevRef.ctl" Type="VI" URL="../navX-MXP Library/SERIAL_ORIG/Internal/navX Serial DevRef.ctl"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="SERIAL_BufferLoop.vi" Type="VI" URL="../navX-MXP Library/SERIAL_ORIG/IO/SERIAL_BufferLoop.vi"/>
-			<Item Name="SERIAL_CalculateChecksum.vi" Type="VI" URL="../navX-MXP Library/SERIAL_ORIG/Internal/SERIAL_CalculateChecksum.vi"/>
-			<Item Name="SERIAL_Close.vi" Type="VI" URL="../navX-MXP Library/SERIAL_ORIG/IO/SERIAL_Close.vi"/>
-			<Item Name="SERIAL_DecodeStreamResponse.vi" Type="VI" URL="../navX-MXP Library/SERIAL_ORIG/Internal/SERIAL_DecodeStreamResponse.vi"/>
-			<Item Name="SERIAL_DecodeYPRUpdate.vi" Type="VI" URL="../navX-MXP Library/SERIAL_ORIG/Internal/SERIAL_DecodeYPRUpdate.vi"/>
-			<Item Name="SERIAL_GetSetRefnum.vi" Type="VI" URL="../navX-MXP Library/SERIAL_ORIG/Refnum/SERIAL_GetSetRefnum.vi"/>
-			<Item Name="SERIAL_GetYPRH.vi" Type="VI" URL="../navX-MXP Library/SERIAL_ORIG/Get/SERIAL_GetYPRH.vi"/>
-			<Item Name="SERIAL_Open.vi" Type="VI" URL="../navX-MXP Library/SERIAL_ORIG/IO/SERIAL_Open.vi"/>
-			<Item Name="SERIAL_StartStreamCommand.vi" Type="VI" URL="../navX-MXP Library/SERIAL_ORIG/Internal/SERIAL_StartStreamCommand.vi"/>
-			<Item Name="SERIAL_StopLoop.vi" Type="VI" URL="../navX-MXP Library/SERIAL_ORIG/Internal/SERIAL_StopLoop.vi"/>
-			<Item Name="SERIAL_VerifyChecksum.vi" Type="VI" URL="../navX-MXP Library/SERIAL_ORIG/Internal/SERIAL_VerifyChecksum.vi"/>
-			<Item Name="SERIAL_YPRCGlobal.vi" Type="VI" URL="../navX-MXP Library/SERIAL_ORIG/Internal/SERIAL_YPRCGlobal.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="navX-MXP IMU" Type="Packed Library">
