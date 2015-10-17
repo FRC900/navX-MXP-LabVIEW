@@ -111,6 +111,42 @@ Totes Ma Gotes</Property>
 			<Item Name="navX Device TypeDef.ctl" Type="VI" URL="../COMMON/TypeDefs/navX Device TypeDef.ctl"/>
 		</Item>
 		<Item Name="Util" Type="Folder">
+			<Item Name="DataConvert" Type="Folder">
+				<Item Name="LabVIEW-to-navX" Type="Folder">
+					<Item Name="EncodeFloat.vi" Type="VI" URL="../COMMON/Util/DataConvert/LabVIEW-to-navX/EncodeFloat.vi"/>
+					<Item Name="EncodeInt8.vi" Type="VI" URL="../COMMON/Util/DataConvert/LabVIEW-to-navX/EncodeInt8.vi"/>
+					<Item Name="EncodeInt16.vi" Type="VI" URL="../COMMON/Util/DataConvert/LabVIEW-to-navX/EncodeInt16.vi"/>
+					<Item Name="EncodeInt32.vi" Type="VI" URL="../COMMON/Util/DataConvert/LabVIEW-to-navX/EncodeInt32.vi"/>
+					<Item Name="EncodeInt64.vi" Type="VI" URL="../COMMON/Util/DataConvert/LabVIEW-to-navX/EncodeInt64.vi"/>
+					<Item Name="EncodeRatio.vi" Type="VI" URL="../COMMON/Util/DataConvert/LabVIEW-to-navX/EncodeRatio.vi"/>
+					<Item Name="EncodeSignedHundredths.vi" Type="VI" URL="../COMMON/Util/DataConvert/LabVIEW-to-navX/EncodeSignedHundredths.vi"/>
+					<Item Name="EncodeSignedThousandths.vi" Type="VI" URL="../COMMON/Util/DataConvert/LabVIEW-to-navX/EncodeSignedThousandths.vi"/>
+					<Item Name="EncodeUInt8.vi" Type="VI" URL="../COMMON/Util/DataConvert/LabVIEW-to-navX/EncodeUInt8.vi"/>
+					<Item Name="EncodeUInt16.vi" Type="VI" URL="../COMMON/Util/DataConvert/LabVIEW-to-navX/EncodeUInt16.vi"/>
+					<Item Name="EncodeUInt32.vi" Type="VI" URL="../COMMON/Util/DataConvert/LabVIEW-to-navX/EncodeUInt32.vi"/>
+					<Item Name="EncodeUInt64.vi" Type="VI" URL="../COMMON/Util/DataConvert/LabVIEW-to-navX/EncodeUInt64.vi"/>
+					<Item Name="EncodeUnsignedHundredths.vi" Type="VI" URL="../COMMON/Util/DataConvert/LabVIEW-to-navX/EncodeUnsignedHundredths.vi"/>
+					<Item Name="EncodeUnsignedThousandths.vi" Type="VI" URL="../COMMON/Util/DataConvert/LabVIEW-to-navX/EncodeUnsignedThousandths.vi"/>
+				</Item>
+				<Item Name="navX-to-LabVIEW" Type="Folder">
+					<Item Name="DecodeFloat.vi" Type="VI" URL="../COMMON/Util/DataConvert/navX-to-LabVIEW/DecodeFloat.vi"/>
+					<Item Name="DecodeInt8.vi" Type="VI" URL="../COMMON/Util/DataConvert/navX-to-LabVIEW/DecodeInt8.vi"/>
+					<Item Name="DecodeInt16.vi" Type="VI" URL="../COMMON/Util/DataConvert/navX-to-LabVIEW/DecodeInt16.vi"/>
+					<Item Name="DecodeInt32.vi" Type="VI" URL="../COMMON/Util/DataConvert/navX-to-LabVIEW/DecodeInt32.vi"/>
+					<Item Name="DecodeInt64.vi" Type="VI" URL="../COMMON/Util/DataConvert/navX-to-LabVIEW/DecodeInt64.vi"/>
+					<Item Name="DecodeRatio.vi" Type="VI" URL="../COMMON/Util/DataConvert/navX-to-LabVIEW/DecodeRatio.vi"/>
+					<Item Name="DecodeSignedHundredths.vi" Type="VI" URL="../COMMON/Util/DataConvert/navX-to-LabVIEW/DecodeSignedHundredths.vi"/>
+					<Item Name="DecodeSignedThousandths.vi" Type="VI" URL="../COMMON/Util/DataConvert/navX-to-LabVIEW/DecodeSignedThousandths.vi"/>
+					<Item Name="DecodeUInt8.vi" Type="VI" URL="../COMMON/Util/DataConvert/navX-to-LabVIEW/DecodeUInt8.vi"/>
+					<Item Name="DecodeUInt16.vi" Type="VI" URL="../COMMON/Util/DataConvert/navX-to-LabVIEW/DecodeUInt16.vi"/>
+					<Item Name="DecodeUInt32.vi" Type="VI" URL="../COMMON/Util/DataConvert/navX-to-LabVIEW/DecodeUInt32.vi"/>
+					<Item Name="DecodeUInt64.vi" Type="VI" URL="../COMMON/Util/DataConvert/navX-to-LabVIEW/DecodeUInt64.vi"/>
+					<Item Name="DecodeUnsignedHundredths.vi" Type="VI" URL="../COMMON/Util/DataConvert/navX-to-LabVIEW/DecodeUnsignedHundredths.vi"/>
+					<Item Name="DecodeUnsignedThousandths.vi" Type="VI" URL="../COMMON/Util/DataConvert/navX-to-LabVIEW/DecodeUnsignedThousandths.vi"/>
+				</Item>
+				<Item Name="LabVIEW-to-navX.vi" Type="VI" URL="../COMMON/Util/DataConvert/LabVIEW-to-navX.vi"/>
+				<Item Name="navX-to-LabVIEW.vi" Type="VI" URL="../COMMON/Util/DataConvert/navX-to-LabVIEW.vi"/>
+			</Item>
 			<Item Name="Chunk1DArray.vi" Type="VI" URL="../COMMON/Util/Chunk1DArray.vi"/>
 			<Item Name="RebootDetect.vi" Type="VI" URL="../COMMON/Util/RebootDetect.vi"/>
 		</Item>
