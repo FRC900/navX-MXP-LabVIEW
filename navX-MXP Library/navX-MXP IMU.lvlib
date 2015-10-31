@@ -166,6 +166,7 @@ Totes Ma Gotes</Property>
 	<Item Name="SERIAL" Type="Folder">
 		<Item Name="Internal" Type="Folder">
 			<Item Name="DECODE" Type="Folder">
+				<Item Name="SERIAL_DecodeAHRS.vi" Type="VI" URL="../SERIAL/Internal/SERIAL_DecodeAHRS.vi"/>
 				<Item Name="SERIAL_DecodeASCII.vi" Type="VI" URL="../SERIAL/Internal/SERIAL_DecodeASCII.vi"/>
 				<Item Name="SERIAL_DecodeBinary.vi" Type="VI" URL="../SERIAL/Internal/SERIAL_DecodeBinary.vi"/>
 				<Item Name="SERIAL_DecodeBoardInfo.vi" Type="VI" URL="../SERIAL/Internal/SERIAL_DecodeBoardInfo.vi"/>
@@ -180,6 +181,7 @@ Totes Ma Gotes</Property>
 				<Item Name="SERIAL_StartStream.vi" Type="VI" URL="../SERIAL/Internal/SERIAL_StartStream.vi"/>
 			</Item>
 			<Item Name="VALIDATE" Type="Folder">
+				<Item Name="SERIAL_CapturePacket.vi" Type="VI" URL="../SERIAL/Internal/SERIAL_CapturePacket.vi"/>
 				<Item Name="SERIAL_ValidateChecksum.vi" Type="VI" URL="../SERIAL/Internal/SERIAL_ValidateChecksum.vi"/>
 				<Item Name="SERIAL_ValidateTermination.vi" Type="VI" URL="../SERIAL/Internal/SERIAL_ValidateTermination.vi"/>
 			</Item>
