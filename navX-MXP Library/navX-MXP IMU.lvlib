@@ -190,6 +190,7 @@ Totes Ma Gotes</Property>
 		<Item Name="IO" Type="Folder">
 			<Item Name="SERIAL_ProcessLoop.vi" Type="VI" URL="../SERIAL_ProcessLoop.vi"/>
 			<Item Name="SERIAL_Read.vi" Type="VI" URL="../SERIAL/IO/SERIAL_Read.vi"/>
+			<Item Name="SERIAL_StreamProcessor.vi" Type="VI" URL="../SERIAL/IO/SERIAL_StreamProcessor.vi"/>
 			<Item Name="SERIAL_Write.vi" Type="VI" URL="../SERIAL/IO/SERIAL_Write.vi"/>
 		</Item>
 	</Item>
