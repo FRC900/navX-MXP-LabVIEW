@@ -170,6 +170,7 @@ Totes Ma Gotes</Property>
 				<Item Name="SERIAL_DecodeASCII.vi" Type="VI" URL="../SERIAL/Internal/SERIAL_DecodeASCII.vi"/>
 				<Item Name="SERIAL_DecodeBinary.vi" Type="VI" URL="../SERIAL/Internal/SERIAL_DecodeBinary.vi"/>
 				<Item Name="SERIAL_DecodeBoardInfo.vi" Type="VI" URL="../SERIAL/Internal/SERIAL_DecodeBoardInfo.vi"/>
+				<Item Name="SERIAL_DecodePacket.vi" Type="VI" URL="../SERIAL/Internal/SERIAL_DecodePacket.vi"/>
 			</Item>
 			<Item Name="ENCODE" Type="Folder">
 				<Item Name="SERIAL_CalculateChecksum.vi" Type="VI" URL="../SERIAL/Internal/SERIAL_CalculateChecksum.vi"/>
