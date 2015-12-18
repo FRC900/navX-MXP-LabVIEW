@@ -16,72 +16,41 @@
 	</Item>
 	<Item Name="IO" Type="Folder">
 		<Item Name="Internal" Type="Folder">
-			<Item Name="SERIAL" Type="Folder"/>
+			<Item Name="SERIAL" Type="Folder">
+				<Item Name="Z900_navX_SERIAL_CapturePacket.vi" Type="VI" URL="../IO/Internal/SERIAL/Z900_navX_SERIAL_CapturePacket.vi"/>
+				<Item Name="Z900_navX_SERIAL_DecodePacket.vi" Type="VI" URL="../IO/Internal/SERIAL/Z900_navX_SERIAL_DecodePacket.vi"/>
+				<Item Name="Z900_navX_SERIAL_ValidatePacketChecksum.vi" Type="VI" URL="../IO/Internal/SERIAL/Z900_navX_SERIAL_ValidatePacketChecksum.vi"/>
+				<Item Name="Z900_navX_SERIAL_ValidatePacketTermination.vi" Type="VI" URL="../IO/Internal/SERIAL/Z900_navX_SERIAL_ValidatePacketTermination.vi"/>
+			</Item>
 			<Item Name="SPI" Type="Folder">
-				<Item Name="SPI_CRC.vi" Type="VI" URL="../IO/Internal/SPI_CRC.vi"/>
+				<Item Name="Z900_navX_SPI_CRC.vi" Type="VI" URL="../IO/Internal/SPI/Z900_navX_SPI_CRC.vi"/>
 			</Item>
-			<Item Name="Internal Close.vi" Type="VI" URL="../IO/Internal/Internal Close.vi"/>
-			<Item Name="Internal Get.vi" Type="VI" URL="../IO/Internal/Internal Get.vi"/>
-			<Item Name="Internal Open.vi" Type="VI" URL="../IO/Internal/Internal Open.vi"/>
-			<Item Name="Internal Start Loop.vi" Type="VI" URL="../IO/Internal/Internal Start Loop.vi"/>
-			<Item Name="Local Registry" Type="Variable">
-				<Property Name="featurePacks" Type="Str">Global</Property>
-				<Property Name="Global:EnableTimestamp" Type="Str">True</Property>
-				<Property Name="Network:UseBinding" Type="Str">False</Property>
-				<Property Name="Network:UseBuffering" Type="Str">False</Property>
-				<Property Name="numTypedefs" Type="UInt">0</Property>
-				<Property Name="type" Type="Str">Global</Property>
-				<Property Name="typeDesc" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!""01!!!"1!A!!!!!!#!!V!"1!(4H6N:8*J9Q!=1%!!!@````]!!!Z"=H*B?3"P:C"637ZU/!!!!1!"!!!!!!!!!!!!!!!!</Property>
-			</Item>
-			<Item Name="navX Device" Type="Variable">
-				<Property Name="featurePacks" Type="Str">Global</Property>
-				<Property Name="Global:EnableTimestamp" Type="Str">True</Property>
-				<Property Name="Network:UseBinding" Type="Str">False</Property>
-				<Property Name="Network:UseBuffering" Type="Str">False</Property>
-				<Property Name="numTypedefs" Type="UInt">4</Property>
-				<Property Name="type" Type="Str">Global</Property>
-				<Property Name="typedefName1" Type="Str">navX Library v2.lvlib:navX Action TypeDef.ctl</Property>
-				<Property Name="typedefName10" Type="Str">WPI_SPIDevRef.ctl</Property>
-				<Property Name="typedefName2" Type="Str">navX Library v2.lvlib:navX Device TypeDef.ctl</Property>
-				<Property Name="typedefName3" Type="Str">navX Library v2.lvlib:navX Notify Packet TypeDef.ctl</Property>
-				<Property Name="typedefName4" Type="Str">navX Library v2.lvlib:navX Protocol TypeDef.ctl</Property>
-				<Property Name="typedefName5" Type="Str">navX Library v2.lvlib:navX Notify Packet TypeDef.ctl</Property>
-				<Property Name="typedefName6" Type="Str">navX Library v2.lvlib:navX Protocol TypeDef.ctl</Property>
-				<Property Name="typedefName7" Type="Str">spi_bus.ctl</Property>
-				<Property Name="typedefName8" Type="Str">WPI_I2CDevRef.ctl</Property>
-				<Property Name="typedefName9" Type="Str">WPI_SerialPortRef.ctl</Property>
-				<Property Name="typedefPath1" Type="PathRel">../TypeDefs/navX Action TypeDef.ctl</Property>
-				<Property Name="typedefPath10" Type="PathRel">/&lt;vilib&gt;/Rock Robotics/WPI/SPI/WPI_SPIDevRef.ctl</Property>
-				<Property Name="typedefPath2" Type="PathRel">../TypeDefs/navX Device TypeDef.ctl</Property>
-				<Property Name="typedefPath3" Type="PathRel">../TypeDefs/navX Notify Packet TypeDef.ctl</Property>
-				<Property Name="typedefPath4" Type="PathRel">../TypeDefs/navX Protocol TypeDef.ctl</Property>
-				<Property Name="typedefPath5" Type="PathRel">../TypeDefs/navX Notify Packet TypeDef.ctl</Property>
-				<Property Name="typedefPath6" Type="PathRel">../TypeDefs/navX Protocol TypeDef.ctl</Property>
-				<Property Name="typedefPath7" Type="PathRel">/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/spilib/spi_bus.ctl</Property>
-				<Property Name="typedefPath8" Type="PathRel">/&lt;vilib&gt;/Rock Robotics/WPI/I2C/WPI_I2CDevRef.ctl</Property>
-				<Property Name="typedefPath9" Type="PathRel">/&lt;vilib&gt;/Rock Robotics/WPI/SerialPort/WPI_SerialPortRef.ctl</Property>
-				<Property Name="typeDesc" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)Z.1)!!"1!A!!!!!!+!&amp;U!]&gt;+69^5!!!!#&amp;7ZB&gt;FAA4'FC=G&amp;S?3"W-CZM&gt;GRJ9BFO98:9)&amp;"S&lt;X2P9W^M)&amp;2Z='6%:79O9X2M!#6!&amp;A!$"F.&amp;5EF"4!.*-E-$5V"*!!!)5(*P&gt;'^D&lt;WQ!!"V!"1!768"E982F)&amp;*B&gt;'5A+$2)?CUW-%B[+1!!&amp;E"4%7ZB&gt;FAA4X"F&lt;C"5?8"F2'6G!":!5!!$!!!!!1!##5FO&gt;'6S:G&amp;D:1"R!0(3F7/^!!!!!B6O98:9)%RJ9H*B=HEA&gt;D)O&lt;(:M;7)8&lt;G&amp;W7#""9X2J&lt;WYA6(FQ:52F:CZD&gt;'Q!/U!7!!1%4G^O:12)97RU$V*F9G^P&gt;#"%:82F9X2F:!B;:8*P,6FB&gt;Q!!#WZB&gt;FAA17.U;7^O!!J!5Q2%982B!!"@!0(3F6V=!!!!!B6O98:9)%RJ9H*B=HEA&gt;D)O&lt;(:M;7)?&lt;G&amp;W7#"/&lt;X2J:HEA5'&amp;D;W6U)&amp;2Z='6%:79O9X2M!#*!5!!#!!1!"2*O98:9)%ZP&gt;'FG?3"197.L:81!!"B!=!!2!!%!"AV/&lt;X2J:HEA5'&amp;D;W6U!"R!=!!)!!!!!A!!$ERP&lt;X!A6EEA5G6G&lt;H6N!!"3!0(3G20H!!!!!B6O98:9)%RJ9H*B=HEA&gt;D)O&lt;(:M;7)8&lt;G&amp;W7#"%:8:J9W5A6(FQ:52F:CZD&gt;'Q!(%"1!!-!!Q!(!!A,&lt;G&amp;W7#"%:8:J9W5!!1!*!!!!&amp;!#!!!!!!!%!"!!!!!%!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
-			</Item>
-			<Item Name="Processing Loop.vi" Type="VI" URL="../IO/Internal/Processing Loop.vi"/>
+			<Item Name="Z900_navX_InternalClose.vi" Type="VI" URL="../IO/Internal/Z900_navX_InternalClose.vi"/>
+			<Item Name="Z900_navX_InternalGet.vi" Type="VI" URL="../IO/Internal/Z900_navX_InternalGet.vi"/>
+			<Item Name="Z900_navX_InternalOpen.vi" Type="VI" URL="../IO/Internal/Z900_navX_InternalOpen.vi"/>
+			<Item Name="Z900_navX_InternalStartLoop.vi" Type="VI" URL="../IO/Internal/Z900_navX_InternalStartLoop.vi"/>
+			<Item Name="Z900_navX_ProcessingLoop.vi" Type="VI" URL="../IO/Internal/Z900_navX_ProcessingLoop.vi"/>
 		</Item>
 		<Item Name="Open" Type="Folder">
-			<Item Name="navX Open I2C.vi" Type="VI" URL="../IO/Open/navX Open I2C.vi"/>
-			<Item Name="navX Open Serial.vi" Type="VI" URL="../IO/Open/navX Open Serial.vi"/>
-			<Item Name="navX Open SPI.vi" Type="VI" URL="../IO/Open/navX Open SPI.vi"/>
+			<Item Name="Z900_navX_Open_I2C.vi" Type="VI" URL="../IO/Open/Z900_navX_Open_I2C.vi"/>
+			<Item Name="Z900_navX_Open_Serial.vi" Type="VI" URL="../IO/Open/Z900_navX_Open_Serial.vi"/>
+			<Item Name="Z900_navX_Open_SPI.vi" Type="VI" URL="../IO/Open/Z900_navX_Open_SPI.vi"/>
 		</Item>
-		<Item Name="navX Close.vi" Type="VI" URL="../IO/navX Close.vi"/>
-		<Item Name="navX Open.vi" Type="VI" URL="../IO/navX Open.vi"/>
+		<Item Name="Z900_navX_Close.vi" Type="VI" URL="../IO/Z900_navX_Close.vi"/>
+		<Item Name="Z900_navX_Open.vi" Type="VI" URL="../IO/Z900_navX_Open.vi"/>
 	</Item>
 	<Item Name="TypeDefs" Type="Folder">
-		<Item Name="navX Open TypeDefs" Type="Folder">
-			<Item Name="navX I2C Open TypeDef.ctl" Type="VI" URL="../TypeDefs/navX Open TypeDefs/navX I2C Open TypeDef.ctl"/>
-			<Item Name="navX Serial Open TypeDef.ctl" Type="VI" URL="../TypeDefs/navX Open TypeDefs/navX Serial Open TypeDef.ctl"/>
-			<Item Name="navX SPI Open TypeDef.ctl" Type="VI" URL="../TypeDefs/navX Open TypeDefs/navX SPI Open TypeDef.ctl"/>
+		<Item Name="Z900_navX_OpenTypeDefs" Type="Folder">
+			<Item Name="Z900_navX_I2COpenTypeDef.ctl" Type="VI" URL="../TypeDefs/navX Open TypeDefs/Z900_navX_I2COpenTypeDef.ctl"/>
+			<Item Name="Z900_navX_SerialOpenTypeDef.ctl" Type="VI" URL="../TypeDefs/navX Open TypeDefs/Z900_navX_SerialOpenTypeDef.ctl"/>
+			<Item Name="Z900_navX_SPIOpenTypeDef.ctl" Type="VI" URL="../TypeDefs/navX Open TypeDefs/Z900_navX_SPIOpenTypeDef.ctl"/>
 		</Item>
-		<Item Name="navX Action TypeDef.ctl" Type="VI" URL="../TypeDefs/navX Action TypeDef.ctl"/>
-		<Item Name="navX Device TypeDef.ctl" Type="VI" URL="../TypeDefs/navX Device TypeDef.ctl"/>
-		<Item Name="navX Interface TypeDef.ctl" Type="VI" URL="../TypeDefs/navX Interface TypeDef.ctl"/>
-		<Item Name="navX Notify Packet TypeDef.ctl" Type="VI" URL="../TypeDefs/navX Notify Packet TypeDef.ctl"/>
-		<Item Name="navX Protocol TypeDef.ctl" Type="VI" URL="../TypeDefs/navX Protocol TypeDef.ctl"/>
+		<Item Name="Z900_navX_ActionTypeDef.ctl" Type="VI" URL="../TypeDefs/Z900_navX_ActionTypeDef.ctl"/>
+		<Item Name="Z900_navX_DeviceExtendedRegisters.ctl" Type="VI" URL="../TypeDefs/Z900_navX_DeviceExtendedRegisters.ctl"/>
+		<Item Name="Z900_navX_DeviceRegisters.ctl" Type="VI" URL="../TypeDefs/Z900_navX_DeviceRegisters.ctl"/>
+		<Item Name="Z900_navX_DeviceTypeDef.ctl" Type="VI" URL="../TypeDefs/Z900_navX_DeviceTypeDef.ctl"/>
+		<Item Name="Z900_navX_InterfaceTypeDef.ctl" Type="VI" URL="../TypeDefs/Z900_navX_InterfaceTypeDef.ctl"/>
+		<Item Name="Z900_navX_NotifyPacketTypeDef.ctl" Type="VI" URL="../TypeDefs/Z900_navX_NotifyPacketTypeDef.ctl"/>
+		<Item Name="Z900_navX_ProtocolTypeDef.ctl" Type="VI" URL="../TypeDefs/Z900_navX_ProtocolTypeDef.ctl"/>
 	</Item>
 </Library>

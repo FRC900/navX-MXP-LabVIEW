@@ -1,7 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="14008000">
-	<Property Name="varPersistentID:{2617EB73-41E0-448C-8015-CF3B1122F122}" Type="Ref">/RT roboRIO Target/navX Library v2/navX Library v2.lvlib/IO/Internal/Local Registry</Property>
-	<Property Name="varPersistentID:{EB04B0B2-C513-468B-A4F4-2BF545A5B440}" Type="Ref">/RT roboRIO Target/navX Library v2/navX Library v2.lvlib/IO/Internal/navX Device</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
