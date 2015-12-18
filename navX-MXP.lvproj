@@ -99,6 +99,7 @@ DirectoryIndex index.htm
 		<Item Name="navX-MXP Library" Type="Folder">
 			<Item Name="navX-MXP IMU.lvlib" Type="Library" URL="../navX-MXP Library/navX-MXP IMU.lvlib"/>
 		</Item>
+		<Item Name="navX Example v2.vi" Type="VI" URL="../navX Example v2.vi"/>
 		<Item Name="navX Example.vi" Type="VI" URL="../navX Example.vi"/>
 		<Item Name="NI WPI Serial USB.lvlib" Type="Library" URL="../NI WPI/NI WPI Serial USB.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -198,8 +199,6 @@ DirectoryIndex index.htm
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="WPI_SerialPort_USB.ctl" Type="VI" URL="../navX-MXP Library/NI WPI/WPI_SerialPort_USB.ctl"/>
-			<Item Name="WPI_SerialPortOpen_USB.vi" Type="VI" URL="../navX-MXP Library/NI WPI/WPI_SerialPortOpen_USB.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="navX-MXP IMU" Type="Packed Library">
