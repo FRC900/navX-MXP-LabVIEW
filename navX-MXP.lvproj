@@ -199,6 +199,54 @@ DirectoryIndex index.htm
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
+			<Item Name="navX Library v2" Type="Packed Library">
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{73E1C92E-C8A2-4DF6-BA3D-321867BB0101}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">navX Library v2</Property>
+				<Property Name="Bld_compilerOptLevel" Type="Int">0</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/NI_AB_TARGETNAME/navX Library v2</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{283430A6-BE7F-4A74-BC76-7AD2324646CC}</Property>
+				<Property Name="Bld_targetDestDir" Type="Path">/build</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">2</Property>
+				<Property Name="Destination[0].destName" Type="Str">navX Library v2.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">/build/navX Library v2.lvlibp</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/build</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{688235F3-7926-468B-BA0C-98F4880AD403}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/RT roboRIO Target/navX Library v2/navX Library v2.lvlib</Property>
+				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
+				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
+				<Property Name="Source[1].preventRename" Type="Bool">true</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">Library</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/RT roboRIO Target/NI WPI Serial USB.lvlib</Property>
+				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="TgtF_companyName" Type="Str">FRC 900</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">navX Library v2</Property>
+				<Property Name="TgtF_internalName" Type="Str">navX Library v2</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2015 FRC 900</Property>
+				<Property Name="TgtF_productName" Type="Str">navX Library v2</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{F1C7B6A6-ED45-42E1-98F0-080AAC3A3145}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">navX Library v2.lvlibp</Property>
+			</Item>
 			<Item Name="navX-MXP IMU" Type="Packed Library">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{D92F8FBF-265A-4DE5-A1A9-660C8E639498}</Property>

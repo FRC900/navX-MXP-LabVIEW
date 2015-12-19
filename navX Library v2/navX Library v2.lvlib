@@ -15,14 +15,24 @@
 		<Item Name="NI WPI Serial USB.lvlib" Type="Friended Library" URL="../../NI WPI/NI WPI Serial USB.lvlib"/>
 	</Item>
 	<Item Name="Get" Type="Folder">
-		<Item Name="Raw Values" Type="Folder"/>
+		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+		<Item Name="Raw Values" Type="Folder">
+			<Item Name="Z900_navX_Get_RawValues_GyroAccelMag.vi" Type="VI" URL="../Get/Raw Values/Z900_navX_Get_RawValues_GyroAccelMag.vi"/>
+		</Item>
 		<Item Name="System Information" Type="Folder">
 			<Item Name="Z900_navX_Get_SystemInformation_BoardInformation.vi" Type="VI" URL="../Get/System Information/Z900_navX_Get_SystemInformation_BoardInformation.vi"/>
+			<Item Name="Z900_navX_Get_SystemInformation_MPUTemp.vi" Type="VI" URL="../Get/System Information/Z900_navX_Get_SystemInformation_MPUTemp.vi"/>
+			<Item Name="Z900_navX_Get_SystemInformation_Offsets.vi" Type="VI" URL="../Get/System Information/Z900_navX_Get_SystemInformation_Offsets.vi"/>
 			<Item Name="Z900_navX_Get_SystemInformation_Status.vi" Type="VI" URL="../Get/System Information/Z900_navX_Get_SystemInformation_Status.vi"/>
+			<Item Name="Z900_navX_Get_SystemInformation_Timestamp.vi" Type="VI" URL="../Get/System Information/Z900_navX_Get_SystemInformation_Timestamp.vi"/>
 		</Item>
-		<Item Name="Z900_navX_Get_YPRH.vi" Type="VI" URL="../Get/Z900_navX_Get_YPRH.vi"/>
+		<Item Name="Z900_navX_Get_Displacement.vi" Type="VI" URL="../Get/Z900_navX_Get_Displacement.vi"/>
+		<Item Name="Z900_navX_Get_LinearAcceleration.vi" Type="VI" URL="../Get/Z900_navX_Get_LinearAcceleration.vi"/>
+		<Item Name="Z900_navX_Get_Quaternion.vi" Type="VI" URL="../Get/Z900_navX_Get_Quaternion.vi"/>
+		<Item Name="Z900_navX_Get_YPRHfH.vi" Type="VI" URL="../Get/Z900_navX_Get_YPRHfH.vi"/>
 	</Item>
 	<Item Name="IO" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Internal" Type="Folder">
 			<Item Name="SERIAL" Type="Folder">
 				<Item Name="Z900_navX_SERIAL_CapturePacket.vi" Type="VI" URL="../IO/Internal/SERIAL/Z900_navX_SERIAL_CapturePacket.vi"/>
@@ -34,12 +44,13 @@
 			<Item Name="SPI" Type="Folder">
 				<Item Name="Z900_navX_SPI_CRC.vi" Type="VI" URL="../IO/Internal/SPI/Z900_navX_SPI_CRC.vi"/>
 			</Item>
+			<Item Name="Z900_navX_Internal_Close.vi" Type="VI" URL="../IO/Internal/Z900_navX_Internal_Close.vi"/>
+			<Item Name="Z900_navX_Internal_Get.vi" Type="VI" URL="../IO/Internal/Z900_navX_Internal_Get.vi"/>
+			<Item Name="Z900_navX_Internal_Open.vi" Type="VI" URL="../IO/Internal/Z900_navX_Internal_Open.vi"/>
+			<Item Name="Z900_navX_Internal_ProcessingLoop.vi" Type="VI" URL="../IO/Internal/Z900_navX_Internal_ProcessingLoop.vi"/>
+			<Item Name="Z900_navX_Internal_StartLoop.vi" Type="VI" URL="../IO/Internal/Z900_navX_Internal_StartLoop.vi"/>
 			<Item Name="Z900_navX_Internal_UpdateDevice.vi" Type="VI" URL="../IO/Internal/Z900_navX_Internal_UpdateDevice.vi"/>
-			<Item Name="Z900_navX_InternalClose.vi" Type="VI" URL="../IO/Internal/Z900_navX_InternalClose.vi"/>
-			<Item Name="Z900_navX_InternalGet.vi" Type="VI" URL="../IO/Internal/Z900_navX_InternalGet.vi"/>
-			<Item Name="Z900_navX_InternalOpen.vi" Type="VI" URL="../IO/Internal/Z900_navX_InternalOpen.vi"/>
-			<Item Name="Z900_navX_InternalStartLoop.vi" Type="VI" URL="../IO/Internal/Z900_navX_InternalStartLoop.vi"/>
-			<Item Name="Z900_navX_ProcessingLoop.vi" Type="VI" URL="../IO/Internal/Z900_navX_ProcessingLoop.vi"/>
+			<Item Name="Z900_navX_Internal_ZeroYaw.vi" Type="VI" URL="../IO/Internal/Z900_navX_Internal_ZeroYaw.vi"/>
 		</Item>
 		<Item Name="Open" Type="Folder">
 			<Item Name="Z900_navX_Open_I2C.vi" Type="VI" URL="../IO/Open/Z900_navX_Open_I2C.vi"/>
@@ -49,7 +60,13 @@
 		<Item Name="Z900_navX_Close.vi" Type="VI" URL="../IO/Z900_navX_Close.vi"/>
 		<Item Name="Z900_navX_Open.vi" Type="VI" URL="../IO/Z900_navX_Open.vi"/>
 	</Item>
+	<Item Name="Set" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+		<Item Name="Z900_navX_Set_SerialProtocol.vi" Type="VI" URL="../Set/Z900_navX_Set_SerialProtocol.vi"/>
+		<Item Name="Z900_navX_Set_ZeroYaw.vi" Type="VI" URL="../Set/Z900_navX_Set_ZeroYaw.vi"/>
+	</Item>
 	<Item Name="TypeDefs" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Z900_navX_Flags" Type="Folder">
 			<Item Name="Z900_navX_Flags_CalibrationStatusTypeDef.ctl" Type="VI" URL="../TypeDefs/Flags/Z900_navX_Flags_CalibrationStatusTypeDef.ctl"/>
 			<Item Name="Z900_navX_Flags_CapabilityTypeDef.ctl" Type="VI" URL="../TypeDefs/Flags/Z900_navX_Flags_CapabilityTypeDef.ctl"/>
@@ -74,7 +91,9 @@
 		<Item Name="Z900_navX_SerialStreamTypeDef.ctl" Type="VI" URL="../TypeDefs/Z900_navX_SerialStreamTypeDef.ctl"/>
 	</Item>
 	<Item Name="Util" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Decode Protocol" Type="Folder">
+			<Item Name="Z900_navX_Util_DecodeProtocol_1616.vi" Type="VI" URL="../Util/Decode Protocol/Z900_navX_Util_DecodeProtocol_1616.vi"/>
 			<Item Name="Z900_navX_Util_DecodeProtocol_Int8.vi" Type="VI" URL="../Util/Decode Protocol/Z900_navX_Util_DecodeProtocol_Int8.vi"/>
 			<Item Name="Z900_navX_Util_DecodeProtocol_Int16.vi" Type="VI" URL="../Util/Decode Protocol/Z900_navX_Util_DecodeProtocol_Int16.vi"/>
 			<Item Name="Z900_navX_Util_DecodeProtocol_Int32.vi" Type="VI" URL="../Util/Decode Protocol/Z900_navX_Util_DecodeProtocol_Int32.vi"/>
