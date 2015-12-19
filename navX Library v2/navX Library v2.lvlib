@@ -14,17 +14,27 @@
 	<Item Name="Friends List" Type="Friends List">
 		<Item Name="NI WPI Serial USB.lvlib" Type="Friended Library" URL="../../NI WPI/NI WPI Serial USB.lvlib"/>
 	</Item>
+	<Item Name="Get" Type="Folder">
+		<Item Name="Raw Values" Type="Folder"/>
+		<Item Name="System Information" Type="Folder">
+			<Item Name="Z900_navX_Get_SystemInformation_BoardInformation.vi" Type="VI" URL="../Get/System Information/Z900_navX_Get_SystemInformation_BoardInformation.vi"/>
+			<Item Name="Z900_navX_Get_SystemInformation_Status.vi" Type="VI" URL="../Get/System Information/Z900_navX_Get_SystemInformation_Status.vi"/>
+		</Item>
+		<Item Name="Z900_navX_Get_YPRH.vi" Type="VI" URL="../Get/Z900_navX_Get_YPRH.vi"/>
+	</Item>
 	<Item Name="IO" Type="Folder">
 		<Item Name="Internal" Type="Folder">
 			<Item Name="SERIAL" Type="Folder">
 				<Item Name="Z900_navX_SERIAL_CapturePacket.vi" Type="VI" URL="../IO/Internal/SERIAL/Z900_navX_SERIAL_CapturePacket.vi"/>
 				<Item Name="Z900_navX_SERIAL_DecodePacket.vi" Type="VI" URL="../IO/Internal/SERIAL/Z900_navX_SERIAL_DecodePacket.vi"/>
+				<Item Name="Z900_navX_SERIAL_PacketChecksum.vi" Type="VI" URL="../IO/Internal/SERIAL/Z900_navX_SERIAL_PacketChecksum.vi"/>
 				<Item Name="Z900_navX_SERIAL_ValidatePacketChecksum.vi" Type="VI" URL="../IO/Internal/SERIAL/Z900_navX_SERIAL_ValidatePacketChecksum.vi"/>
 				<Item Name="Z900_navX_SERIAL_ValidatePacketTermination.vi" Type="VI" URL="../IO/Internal/SERIAL/Z900_navX_SERIAL_ValidatePacketTermination.vi"/>
 			</Item>
 			<Item Name="SPI" Type="Folder">
 				<Item Name="Z900_navX_SPI_CRC.vi" Type="VI" URL="../IO/Internal/SPI/Z900_navX_SPI_CRC.vi"/>
 			</Item>
+			<Item Name="Z900_navX_Internal_UpdateDevice.vi" Type="VI" URL="../IO/Internal/Z900_navX_Internal_UpdateDevice.vi"/>
 			<Item Name="Z900_navX_InternalClose.vi" Type="VI" URL="../IO/Internal/Z900_navX_InternalClose.vi"/>
 			<Item Name="Z900_navX_InternalGet.vi" Type="VI" URL="../IO/Internal/Z900_navX_InternalGet.vi"/>
 			<Item Name="Z900_navX_InternalOpen.vi" Type="VI" URL="../IO/Internal/Z900_navX_InternalOpen.vi"/>
@@ -40,10 +50,19 @@
 		<Item Name="Z900_navX_Open.vi" Type="VI" URL="../IO/Z900_navX_Open.vi"/>
 	</Item>
 	<Item Name="TypeDefs" Type="Folder">
+		<Item Name="Z900_navX_Flags" Type="Folder">
+			<Item Name="Z900_navX_Flags_CalibrationStatusTypeDef.ctl" Type="VI" URL="../TypeDefs/Flags/Z900_navX_Flags_CalibrationStatusTypeDef.ctl"/>
+			<Item Name="Z900_navX_Flags_CapabilityTypeDef.ctl" Type="VI" URL="../TypeDefs/Flags/Z900_navX_Flags_CapabilityTypeDef.ctl"/>
+			<Item Name="Z900_navX_Flags_HardwareRevTypeDef.ctl" Type="VI" URL="../TypeDefs/Flags/Z900_navX_Flags_HardwareRevTypeDef.ctl"/>
+			<Item Name="Z900_navX_Flags_OmnimountConfigTypeDef.ctl" Type="VI" URL="../TypeDefs/Flags/Z900_navX_Flags_OmnimountConfigTypeDef.ctl"/>
+			<Item Name="Z900_navX_Flags_OpStatusTypeDef.ctl" Type="VI" URL="../TypeDefs/Flags/Z900_navX_Flags_OpStatusTypeDef.ctl"/>
+			<Item Name="Z900_navX_Flags_SelfTestStatusTypeDef.ctl" Type="VI" URL="../TypeDefs/Flags/Z900_navX_Flags_SelfTestStatusTypeDef.ctl"/>
+			<Item Name="Z900_navX_Flags_SensorStatusTypeDef.ctl" Type="VI" URL="../TypeDefs/Flags/Z900_navX_Flags_SensorStatusTypeDef.ctl"/>
+		</Item>
 		<Item Name="Z900_navX_OpenTypeDefs" Type="Folder">
-			<Item Name="Z900_navX_I2COpenTypeDef.ctl" Type="VI" URL="../TypeDefs/navX Open TypeDefs/Z900_navX_I2COpenTypeDef.ctl"/>
-			<Item Name="Z900_navX_SerialOpenTypeDef.ctl" Type="VI" URL="../TypeDefs/navX Open TypeDefs/Z900_navX_SerialOpenTypeDef.ctl"/>
-			<Item Name="Z900_navX_SPIOpenTypeDef.ctl" Type="VI" URL="../TypeDefs/navX Open TypeDefs/Z900_navX_SPIOpenTypeDef.ctl"/>
+			<Item Name="Z900_navX_OpenTypeDef_I2C.ctl" Type="VI" URL="../TypeDefs/navX Open TypeDefs/Z900_navX_OpenTypeDef_I2C.ctl"/>
+			<Item Name="Z900_navX_OpenTypeDef_Serial.ctl" Type="VI" URL="../TypeDefs/navX Open TypeDefs/Z900_navX_OpenTypeDef_Serial.ctl"/>
+			<Item Name="Z900_navX_OpenTypeDef_SPI.ctl" Type="VI" URL="../TypeDefs/navX Open TypeDefs/Z900_navX_OpenTypeDef_SPI.ctl"/>
 		</Item>
 		<Item Name="Z900_navX_ActionTypeDef.ctl" Type="VI" URL="../TypeDefs/Z900_navX_ActionTypeDef.ctl"/>
 		<Item Name="Z900_navX_DeviceExtendedRegisters.ctl" Type="VI" URL="../TypeDefs/Z900_navX_DeviceExtendedRegisters.ctl"/>
@@ -52,5 +71,34 @@
 		<Item Name="Z900_navX_InterfaceTypeDef.ctl" Type="VI" URL="../TypeDefs/Z900_navX_InterfaceTypeDef.ctl"/>
 		<Item Name="Z900_navX_NotifyPacketTypeDef.ctl" Type="VI" URL="../TypeDefs/Z900_navX_NotifyPacketTypeDef.ctl"/>
 		<Item Name="Z900_navX_ProtocolTypeDef.ctl" Type="VI" URL="../TypeDefs/Z900_navX_ProtocolTypeDef.ctl"/>
+		<Item Name="Z900_navX_SerialStreamTypeDef.ctl" Type="VI" URL="../TypeDefs/Z900_navX_SerialStreamTypeDef.ctl"/>
+	</Item>
+	<Item Name="Util" Type="Folder">
+		<Item Name="Decode Protocol" Type="Folder">
+			<Item Name="Z900_navX_Util_DecodeProtocol_Int8.vi" Type="VI" URL="../Util/Decode Protocol/Z900_navX_Util_DecodeProtocol_Int8.vi"/>
+			<Item Name="Z900_navX_Util_DecodeProtocol_Int16.vi" Type="VI" URL="../Util/Decode Protocol/Z900_navX_Util_DecodeProtocol_Int16.vi"/>
+			<Item Name="Z900_navX_Util_DecodeProtocol_Int32.vi" Type="VI" URL="../Util/Decode Protocol/Z900_navX_Util_DecodeProtocol_Int32.vi"/>
+			<Item Name="Z900_navX_Util_DecodeProtocol_SignedHundredths.vi" Type="VI" URL="../Util/Decode Protocol/Z900_navX_Util_DecodeProtocol_SignedHundredths.vi"/>
+			<Item Name="Z900_navX_Util_DecodeProtocol_SignedRatio.vi" Type="VI" URL="../Util/Decode Protocol/Z900_navX_Util_DecodeProtocol_SignedRatio.vi"/>
+			<Item Name="Z900_navX_Util_DecodeProtocol_SignedThousandths.vi" Type="VI" URL="../Util/Decode Protocol/Z900_navX_Util_DecodeProtocol_SignedThousandths.vi"/>
+			<Item Name="Z900_navX_Util_DecodeProtocol_UInt16.vi" Type="VI" URL="../Util/Decode Protocol/Z900_navX_Util_DecodeProtocol_UInt16.vi"/>
+			<Item Name="Z900_navX_Util_DecodeProtocol_UInt32.vi" Type="VI" URL="../Util/Decode Protocol/Z900_navX_Util_DecodeProtocol_UInt32.vi"/>
+			<Item Name="Z900_navX_Util_DecodeProtocol_UnsignedHundredths.vi" Type="VI" URL="../Util/Decode Protocol/Z900_navX_Util_DecodeProtocol_UnsignedHundredths.vi"/>
+			<Item Name="Z900_navX_Util_DecodeProtocol_UnsignedThousandths.vi" Type="VI" URL="../Util/Decode Protocol/Z900_navX_Util_DecodeProtocol_UnsignedThousandths.vi"/>
+		</Item>
+		<Item Name="Encode Protocol" Type="Folder">
+			<Item Name="Z900_navX_Util_EncodeProtocol_Int8.vi" Type="VI" URL="../Util/Encode Protocol/Z900_navX_Util_EncodeProtocol_Int8.vi"/>
+			<Item Name="Z900_navX_Util_EncodeProtocol_Int16.vi" Type="VI" URL="../Util/Encode Protocol/Z900_navX_Util_EncodeProtocol_Int16.vi"/>
+			<Item Name="Z900_navX_Util_EncodeProtocol_Int32.vi" Type="VI" URL="../Util/Encode Protocol/Z900_navX_Util_EncodeProtocol_Int32.vi"/>
+			<Item Name="Z900_navX_Util_EncodeProtocol_SignedHundredths.vi" Type="VI" URL="../Util/Encode Protocol/Z900_navX_Util_EncodeProtocol_SignedHundredths.vi"/>
+			<Item Name="Z900_navX_Util_EncodeProtocol_SignedRatio.vi" Type="VI" URL="../Util/Encode Protocol/Z900_navX_Util_EncodeProtocol_SignedRatio.vi"/>
+			<Item Name="Z900_navX_Util_EncodeProtocol_SignedThousandths.vi" Type="VI" URL="../Util/Encode Protocol/Z900_navX_Util_EncodeProtocol_SignedThousandths.vi"/>
+			<Item Name="Z900_navX_Util_EncodeProtocol_UInt16.vi" Type="VI" URL="../Util/Encode Protocol/Z900_navX_Util_EncodeProtocol_UInt16.vi"/>
+			<Item Name="Z900_navX_Util_EncodeProtocol_UInt32.vi" Type="VI" URL="../Util/Encode Protocol/Z900_navX_Util_EncodeProtocol_UInt32.vi"/>
+			<Item Name="Z900_navX_Util_EncodeProtocol_UnsignedHundredths.vi" Type="VI" URL="../Util/Encode Protocol/Z900_navX_Util_EncodeProtocol_UnsignedHundredths.vi"/>
+			<Item Name="Z900_navX_Util_EncodeProtocol_UnsignedThousandths.vi" Type="VI" URL="../Util/Encode Protocol/Z900_navX_Util_EncodeProtocol_UnsignedThousandths.vi"/>
+		</Item>
+		<Item Name="Z900_navX_Util_BigEndian_to_LittleEndian.vi" Type="VI" URL="../Util/Z900_navX_Util_BigEndian_to_LittleEndian.vi"/>
+		<Item Name="Z900_navX_Util_LittleEndian_to_BigEndian.vi" Type="VI" URL="../Util/Z900_navX_Util_LittleEndian_to_BigEndian.vi"/>
 	</Item>
 </Library>

@@ -92,13 +92,13 @@ DirectoryIndex index.htm
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="navX Library v2" Type="Folder">
+			<Item Name="navX Example v2.vi" Type="VI" URL="../navX Example v2.vi"/>
 			<Item Name="navX Library v2.lvlib" Type="Library" URL="../navX Library v2/navX Library v2.lvlib"/>
 		</Item>
 		<Item Name="navX-MXP Library" Type="Folder">
+			<Item Name="navX Example.vi" Type="VI" URL="../navX Example.vi"/>
 			<Item Name="navX-MXP IMU.lvlib" Type="Library" URL="../navX-MXP Library/navX-MXP IMU.lvlib"/>
 		</Item>
-		<Item Name="navX Example v2.vi" Type="VI" URL="../navX Example v2.vi"/>
-		<Item Name="navX Example.vi" Type="VI" URL="../navX Example.vi"/>
 		<Item Name="NI WPI Serial USB.lvlib" Type="Library" URL="../NI WPI/NI WPI Serial USB.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
