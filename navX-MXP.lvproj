@@ -200,7 +200,6 @@ DirectoryIndex index.htm
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="navX Library v2" Type="Packed Library">
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{73E1C92E-C8A2-4DF6-BA3D-321867BB0101}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">navX Library v2</Property>
 				<Property Name="Bld_compilerOptLevel" Type="Int">0</Property>
@@ -212,8 +211,8 @@ DirectoryIndex index.htm
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{283430A6-BE7F-4A74-BC76-7AD2324646CC}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/build</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
+				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">navX Library v2.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/build/navX Library v2.lvlibp</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
@@ -223,7 +222,7 @@ DirectoryIndex index.htm
 				<Property Name="Destination[1].path" Type="Path">/build</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{688235F3-7926-468B-BA0C-98F4880AD403}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{DE8BAB8B-54F6-4247-880D-7960EF82FDB9}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT roboRIO Target/navX Library v2/navX Library v2.lvlib</Property>
