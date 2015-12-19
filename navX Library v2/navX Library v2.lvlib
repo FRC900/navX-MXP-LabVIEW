@@ -60,6 +60,11 @@
 		<Item Name="Z900_navX_Close.vi" Type="VI" URL="../IO/Z900_navX_Close.vi"/>
 		<Item Name="Z900_navX_Open.vi" Type="VI" URL="../IO/Z900_navX_Open.vi"/>
 	</Item>
+	<Item Name="RefNum" Type="Folder">
+		<Item Name="Z900_navX_RefNum_Get.vi" Type="VI" URL="../RefNum/Z900_navX_RefNum_Get.vi"/>
+		<Item Name="Z900_navX_RefNum_GetSet.vi" Type="VI" URL="../RefNum/Z900_navX_RefNum_GetSet.vi"/>
+		<Item Name="Z900_navX_RefNum_Set.vi" Type="VI" URL="../RefNum/Z900_navX_RefNum_Set.vi"/>
+	</Item>
 	<Item Name="Set" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Z900_navX_Set_SerialProtocol.vi" Type="VI" URL="../Set/Z900_navX_Set_SerialProtocol.vi"/>

@@ -212,7 +212,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{283430A6-BE7F-4A74-BC76-7AD2324646CC}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/build</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">navX Library v2.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/build/navX Library v2.lvlibp</Property>
