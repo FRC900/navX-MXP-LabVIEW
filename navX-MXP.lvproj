@@ -91,14 +91,15 @@ DirectoryIndex index.htm
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
-		<Item Name="navX Library v2" Type="Folder">
-			<Item Name="navX Example v2.vi" Type="VI" URL="../navX Example v2.vi"/>
-			<Item Name="navX Library v2.lvlib" Type="Library" URL="../navX Library v2/navX Library v2.lvlib"/>
+		<Item Name="Examples" Type="Folder">
+			<Item Name="Functions" Type="Folder">
+				<Item Name="navX Example v2.vi" Type="VI" URL="../Examples/Funtions/navX Example v2.vi"/>
+				<Item Name="navX Example.vi" Type="VI" URL="../Examples/Funtions/navX Example.vi"/>
+			</Item>
+			<Item Name="roboRIO" Type="Folder"/>
 		</Item>
-		<Item Name="navX-MXP Library" Type="Folder">
-			<Item Name="navX Example.vi" Type="VI" URL="../navX Example.vi"/>
-			<Item Name="navX-MXP IMU.lvlib" Type="Library" URL="../navX-MXP Library/navX-MXP IMU.lvlib"/>
-		</Item>
+		<Item Name="navX Library v2.lvlib" Type="Library" URL="../navX Library v2/navX Library v2.lvlib"/>
+		<Item Name="navX-MXP IMU.lvlib" Type="Library" URL="../navX-MXP Library/navX-MXP IMU.lvlib"/>
 		<Item Name="NI WPI Serial USB.lvlib" Type="Library" URL="../NI WPI/NI WPI Serial USB.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -199,38 +200,39 @@ DirectoryIndex index.htm
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="navX Library v2" Type="Packed Library">
-				<Property Name="Bld_buildCacheID" Type="Str">{73E1C92E-C8A2-4DF6-BA3D-321867BB0101}</Property>
+			<Item Name="navX Library v2" Type="Source Distribution">
+				<Property Name="Bld_buildCacheID" Type="Str">{577AE109-91A3-4160-8C70-712B62928B49}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">navX Library v2</Property>
 				<Property Name="Bld_compilerOptLevel" Type="Int">0</Property>
-				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludedDirectory[0]" Type="Path">vi.lib</Property>
+				<Property Name="Bld_excludedDirectory[0].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectory[1]" Type="Path">resource/objmgr</Property>
+				<Property Name="Bld_excludedDirectory[1].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectory[2]" Type="Path">/C/ProgramData/National Instruments/InstCache/14.0</Property>
+				<Property Name="Bld_excludedDirectory[3]" Type="Path">instr.lib</Property>
+				<Property Name="Bld_excludedDirectory[3].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectory[4]" Type="Path">user.lib</Property>
+				<Property Name="Bld_excludedDirectory[4].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectoryCount" Type="Int">5</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/NI_AB_TARGETNAME/navX Library v2</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{283430A6-BE7F-4A74-BC76-7AD2324646CC}</Property>
-				<Property Name="Bld_targetDestDir" Type="Path">/build</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{72B9EFF4-8BF5-4EA5-9323-35CCFBDD12A6}</Property>
+				<Property Name="Bld_targetDestDir" Type="Path">/src</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.patch" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">navX Library v2.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">/build/navX Library v2.lvlibp</Property>
+				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
+				<Property Name="Destination[0].path" Type="Path">/src</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/build</Property>
+				<Property Name="Destination[1].path" Type="Path">/src/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{DE8BAB8B-54F6-4247-880D-7960EF82FDB9}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{4CC02A29-733D-402B-8842-7622227CAEAC}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/RT roboRIO Target/navX Library v2/navX Library v2.lvlib</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/RT roboRIO Target/navX Library v2.lvlib</Property>
 				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
-				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
-				<Property Name="Source[1].preventRename" Type="Bool">true</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/RT roboRIO Target/NI WPI Serial USB.lvlib</Property>
@@ -238,56 +240,20 @@ DirectoryIndex index.htm
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
-				<Property Name="TgtF_companyName" Type="Str">FRC 900</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">navX Library v2</Property>
-				<Property Name="TgtF_internalName" Type="Str">navX Library v2</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2015 FRC 900</Property>
-				<Property Name="TgtF_productName" Type="Str">navX Library v2</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{F1C7B6A6-ED45-42E1-98F0-080AAC3A3145}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">navX Library v2.lvlibp</Property>
 			</Item>
-			<Item Name="navX-MXP IMU" Type="Packed Library">
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{D92F8FBF-265A-4DE5-A1A9-660C8E639498}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">navX-MXP IMU</Property>
-				<Property Name="Bld_compilerOptLevel" Type="Int">0</Property>
-				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/NI_AB_TARGETNAME/navX-MXP</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{B3CF6FDB-4AE3-4974-9C3A-9BDDD350FC5A}</Property>
-				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">7</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">navX-MXP IMU.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/navX-MXP IMU.lvlibp</Property>
-				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{AFB09FAC-FE1E-4211-9858-6C56580F5A7F}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/RT roboRIO Target/navX-MXP Library/navX-MXP IMU.lvlib</Property>
-				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
-				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
-				<Property Name="Source[1].preventRename" Type="Bool">true</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[1].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_companyName" Type="Str">FRC Team 900</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">navX-MXP IMU</Property>
-				<Property Name="TgtF_internalName" Type="Str">navX-MXP IMU</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2015 FRC Team 900</Property>
-				<Property Name="TgtF_productName" Type="Str">navX-MXP IMU</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{AC8722B9-A9F0-46DC-99CF-A9B35DF02945}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">navX-MXP IMU.lvlibp</Property>
+			<Item Name="navX Library v2.zip" Type="Zip File">
+				<Property Name="Absolute[0]" Type="Bool">false</Property>
+				<Property Name="BuildName" Type="Str">navX Library v2.zip</Property>
+				<Property Name="Comments" Type="Str"></Property>
+				<Property Name="DestinationID[0]" Type="Str">{7808BA72-C8BF-4B08-B329-44E16E7BCDB6}</Property>
+				<Property Name="DestinationItemCount" Type="Int">1</Property>
+				<Property Name="DestinationName[0]" Type="Str">Destination Directory</Property>
+				<Property Name="IncludedItemCount" Type="Int">2</Property>
+				<Property Name="IncludedItems[0]" Type="Ref">/RT roboRIO Target/navX Library v2.lvlib</Property>
+				<Property Name="IncludedItems[1]" Type="Ref">/RT roboRIO Target/NI WPI Serial USB.lvlib</Property>
+				<Property Name="IncludeProject" Type="Bool">false</Property>
+				<Property Name="Path[0]" Type="Path">../../builds/navX-MXP/navX Library v2.zip</Property>
+				<Property Name="ZipBase" Type="Str">NI_zipbasevirtual</Property>
 			</Item>
 		</Item>
 	</Item>
