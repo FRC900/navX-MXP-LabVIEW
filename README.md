@@ -1,4 +1,4 @@
-# navX-MXP-LabVIEW
+# navX LabVIEW Library
 LabVIEW library for communicating with <a href="http://www.kauailabs.com/store/index.php?route=product/product&product_id=56">Kauailabs' navX MXP Robotics Navigation Sensor</a>.
 
 ## Wiki: http://navx-mxp.kauailabs.com
@@ -6,5 +6,5 @@ LabVIEW library for communicating with <a href="http://www.kauailabs.com/store/i
 
 
 
-## Use SPI or I<sup>2</sup>C.
-There is no reason to use SERIAL with this wonderful board...you monster...
+## Supports Serial, I<sup>2</sup>C, SPI.
+Easy to use navX Library for FIRST FRC Teams.

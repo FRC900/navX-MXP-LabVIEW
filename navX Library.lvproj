@@ -233,8 +233,8 @@ DirectoryIndex index.htm
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.patch" Type="Int">3</Property>
-				<Property Name="Destination[0].destName" Type="Str">navXv2.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/navXv2.lvlibp</Property>
+				<Property Name="Destination[0].destName" Type="Str">navXLibraryv2.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/navXLibraryv2.lvlibp</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
@@ -242,7 +242,7 @@ DirectoryIndex index.htm
 				<Property Name="Destination[1].path" Type="Path">/home/lvuser/natinst/bin</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{7E458D86-3B03-4759-8083-C030BFE77B0F}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{854601B5-737B-41FE-BFA8-E68321E6A953}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT roboRIO Target/navX Library v2.lvlib</Property>
@@ -265,7 +265,7 @@ DirectoryIndex index.htm
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2015 FRC 900</Property>
 				<Property Name="TgtF_productName" Type="Str">navX Library v2.lvlibp</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{E4D9AF88-6168-4FD9-8A09-E6CE83F46738}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">navXv2.lvlibp</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">navXLibraryv2.lvlibp</Property>
 			</Item>
 			<Item Name="navX Library v2.src" Type="Source Distribution">
 				<Property Name="Bld_buildCacheID" Type="Str">{577AE109-91A3-4160-8C70-712B62928B49}</Property>
