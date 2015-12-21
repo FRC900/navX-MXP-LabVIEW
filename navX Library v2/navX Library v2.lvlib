@@ -45,6 +45,7 @@
 				<Item Name="Z900_navX_SPI_CRC.vi" Type="VI" URL="../IO/Internal/SPI/Z900_navX_SPI_CRC.vi"/>
 			</Item>
 			<Item Name="Z900_navX_Internal_Close.vi" Type="VI" URL="../IO/Internal/Z900_navX_Internal_Close.vi"/>
+			<Item Name="Z900_navX_Internal_Error.vi" Type="VI" URL="../IO/Internal/Z900_navX_Internal_Error.vi"/>
 			<Item Name="Z900_navX_Internal_Get.vi" Type="VI" URL="../IO/Internal/Z900_navX_Internal_Get.vi"/>
 			<Item Name="Z900_navX_Internal_Open.vi" Type="VI" URL="../IO/Internal/Z900_navX_Internal_Open.vi"/>
 			<Item Name="Z900_navX_Internal_ProcessingLoop.vi" Type="VI" URL="../IO/Internal/Z900_navX_Internal_ProcessingLoop.vi"/>
