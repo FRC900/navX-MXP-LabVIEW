@@ -232,7 +232,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_previewCacheID" Type="Str">{E4090123-1EDA-423B-845C-44DDEB9C7B3C}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
-				<Property Name="Bld_version.patch" Type="Int">2</Property>
+				<Property Name="Bld_version.patch" Type="Int">3</Property>
 				<Property Name="Destination[0].destName" Type="Str">navXv2.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/navXv2.lvlibp</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
@@ -242,7 +242,7 @@ DirectoryIndex index.htm
 				<Property Name="Destination[1].path" Type="Path">/home/lvuser/natinst/bin</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{69BF1899-B0EA-44B9-B0D2-14BFFAF0EA2A}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{7E458D86-3B03-4759-8083-C030BFE77B0F}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT roboRIO Target/navX Library v2.lvlib</Property>
@@ -288,7 +288,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_previewCacheID" Type="Str">{72B9EFF4-8BF5-4EA5-9323-35CCFBDD12A6}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
-				<Property Name="Bld_version.patch" Type="Int">2</Property>
+				<Property Name="Bld_version.patch" Type="Int">3</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
@@ -296,7 +296,7 @@ DirectoryIndex index.htm
 				<Property Name="Destination[1].path" Type="Path">/home/lvuser/natinst/bin/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{69BF1899-B0EA-44B9-B0D2-14BFFAF0EA2A}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{7E458D86-3B03-4759-8083-C030BFE77B0F}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT roboRIO Target/navX Library v2.lvlib</Property>
