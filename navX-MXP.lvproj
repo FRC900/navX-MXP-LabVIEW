@@ -99,7 +99,7 @@ DirectoryIndex index.htm
 			<Item Name="roboRIO" Type="Folder"/>
 		</Item>
 		<Item Name="navX Library v2.lvlib" Type="Library" URL="../navX Library v2/navX Library v2.lvlib"/>
-		<Item Name="navX-MXP IMU.lvlib" Type="Library" URL="../navX-MXP Library/navX-MXP IMU.lvlib"/>
+		<Item Name="navX-MXP IMU.lvlib" Type="Library" URL="../navX Library v1/navX-MXP IMU.lvlib"/>
 		<Item Name="NI WPI Serial USB.lvlib" Type="Library" URL="../NI WPI/NI WPI Serial USB.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
