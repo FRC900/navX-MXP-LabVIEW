@@ -1,6 +1,8 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Library LVVersion="14008000">
-	<Property Name="NI.Lib.Description" Type="Str">Second Version of the navX library</Property>
+	<Property Name="NI.Lib.Description" Type="Str">Second Version of the navX library
+SERIAL, I2C, SPI LabVIEW Communications for navX-MXP and navX-Micro IMU
+By James R Parks (FRC Team 900)</Property>
 	<Property Name="NI.Lib.FriendGUID" Type="Str">a96ae60d-54f8-4f2a-8797-6eea5786fab9</Property>
 	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!):!!!*Q(C=\&gt;8"44-R%-8R"_,!.2WAN0";I)7U-#XESD%N4!NJ)3V-#WEB,3R`GUE%%EI_@1,"A&gt;UY*-`W_*&gt;&gt;;Z(G]3A^;,FV0&amp;]^`K^`[@&lt;0`7_/]8:_,2`K,TV_/8][F`X10[J=G8]?^.H[F`G@^V`Z`4=/`2V`R]]?,T=X[&lt;@PW4O."R'N;%E,GD777IK]S)O]S)O]S*-]S:-]S:-]S9-]S)-]S)-]S%VO=J/&lt;X/1GHS?ZS%5O=ED&amp;YM6#2&gt;'C1$%9CIKXQF.Y#E`BY;M+4_%J0)7H]$"%B;@Q&amp;*\#5XC9JM*4?!J0Y3E]F*K3GC=ZHM*$?37?R*.Y%E`C95EFHA31,*954IL!5.+:@%A]C3@R]&amp;'**`%EHM34?/B7YEE]C3@R*"[GT+O35T./=DS55?!*0)%H]!1?3CPQ"*\!%XA#$]MJ]!3?!"%M'"3(I'"3-#$Y%HA#$X]5?!*0Y!E]A9?O?9&gt;C8JGB'3=Z(O-R(O-R(O/BB)T(?)T(?)S(MD)?YT%?YT%?FJ,R')`R')B:F/6FCJG*:J!*D)@8X#W?&gt;SGHR0/5?P/K.[6[M[EXE8JTK'_[_G;K&lt;Z,[YKMPKPJCK3_#_M?JU7K-?B(VZ$&amp;1*^[0N!.N4^P2NL1.\:GWJKX'V#]??$K&gt;&gt;$Q?&gt;4A=N.`PN&gt;PNN.VON&gt;FMR$^(L&gt;&gt;LL6;LSW0AC@0S10A.T[6@9&lt;D8_\J=IV&gt;MKLFV!!!!!!</Property>
