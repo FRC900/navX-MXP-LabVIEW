@@ -94,6 +94,7 @@ DirectoryIndex index.htm
 		<Item Name="Examples" Type="Folder">
 			<Item Name="Functions" Type="Folder">
 				<Item Name="navX Example v1 (deprecated).vi" Type="VI" URL="../Examples/Functions/navX Example v1 (deprecated).vi"/>
+				<Item Name="navX Example v2 - Dual navX.vi" Type="VI" URL="../Examples/Functions/navX Example v2 - Dual navX.vi"/>
 				<Item Name="navX Example v2.vi" Type="VI" URL="../Examples/Functions/navX Example v2.vi"/>
 			</Item>
 		</Item>
@@ -228,7 +229,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_previewCacheID" Type="Str">{E4090123-1EDA-423B-845C-44DDEB9C7B3C}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
-				<Property Name="Bld_version.patch" Type="Int">4</Property>
+				<Property Name="Bld_version.patch" Type="Int">5</Property>
 				<Property Name="Destination[0].destName" Type="Str">navXLibraryv2.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/navXLibraryv2.lvlibp</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
@@ -238,7 +239,7 @@ DirectoryIndex index.htm
 				<Property Name="Destination[1].path" Type="Path">/home/lvuser/natinst/bin</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{534E53D2-0707-4797-A03E-DA1F9ADF22AC}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{6B379E40-E4E7-4362-947F-EFC2996D4095}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT roboRIO Target/navX Library v2.lvlib</Property>
@@ -271,7 +272,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_excludedDirectory[0].pathType" Type="Str">relativeToAppDir</Property>
 				<Property Name="Bld_excludedDirectory[1]" Type="Path">resource/objmgr</Property>
 				<Property Name="Bld_excludedDirectory[1].pathType" Type="Str">relativeToAppDir</Property>
-				<Property Name="Bld_excludedDirectory[2]" Type="Path">/C/ProgramData/National Instruments/InstCache/14.0</Property>
+				<Property Name="Bld_excludedDirectory[2]" Type="Path">/C/ProgramData/National Instruments/InstCache/15.0</Property>
 				<Property Name="Bld_excludedDirectory[3]" Type="Path">instr.lib</Property>
 				<Property Name="Bld_excludedDirectory[3].pathType" Type="Str">relativeToAppDir</Property>
 				<Property Name="Bld_excludedDirectory[4]" Type="Path">user.lib</Property>
@@ -284,7 +285,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_previewCacheID" Type="Str">{72B9EFF4-8BF5-4EA5-9323-35CCFBDD12A6}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
-				<Property Name="Bld_version.patch" Type="Int">4</Property>
+				<Property Name="Bld_version.patch" Type="Int">5</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
@@ -292,7 +293,7 @@ DirectoryIndex index.htm
 				<Property Name="Destination[1].path" Type="Path">/home/lvuser/natinst/bin/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{534E53D2-0707-4797-A03E-DA1F9ADF22AC}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{6B379E40-E4E7-4362-947F-EFC2996D4095}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT roboRIO Target/navX Library v2.lvlib</Property>
