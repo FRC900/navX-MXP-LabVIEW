@@ -36,6 +36,9 @@ By James R Parks (FRC Team 900)</Property>
 	<Item Name="IO" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Internal" Type="Folder">
+			<Item Name="I2C" Type="Folder">
+				<Item Name="Z900_navX_I2C_Read.vi" Type="VI" URL="../IO/Internal/I2C/Z900_navX_I2C_Read.vi"/>
+			</Item>
 			<Item Name="SERIAL" Type="Folder">
 				<Item Name="Z900_navX_SERIAL_CapturePacket.vi" Type="VI" URL="../IO/Internal/SERIAL/Z900_navX_SERIAL_CapturePacket.vi"/>
 				<Item Name="Z900_navX_SERIAL_DecodePacket.vi" Type="VI" URL="../IO/Internal/SERIAL/Z900_navX_SERIAL_DecodePacket.vi"/>
@@ -45,6 +48,7 @@ By James R Parks (FRC Team 900)</Property>
 			</Item>
 			<Item Name="SPI" Type="Folder">
 				<Item Name="Z900_navX_SPI_CRC.vi" Type="VI" URL="../IO/Internal/SPI/Z900_navX_SPI_CRC.vi"/>
+				<Item Name="Z900_navX_SPI_Read.vi" Type="VI" URL="../IO/Internal/SPI/Z900_navX_SPI_Read.vi"/>
 			</Item>
 			<Item Name="Z900_navX_Internal_Close.vi" Type="VI" URL="../IO/Internal/Z900_navX_Internal_Close.vi"/>
 			<Item Name="Z900_navX_Internal_Error.vi" Type="VI" URL="../IO/Internal/Z900_navX_Internal_Error.vi"/>
@@ -53,6 +57,7 @@ By James R Parks (FRC Team 900)</Property>
 			<Item Name="Z900_navX_Internal_ProcessingLoop.vi" Type="VI" URL="../IO/Internal/Z900_navX_Internal_ProcessingLoop.vi"/>
 			<Item Name="Z900_navX_Internal_SendIntegrationControl.vi" Type="VI" URL="../IO/Internal/Z900_navX_Internal_SendIntegrationControl.vi"/>
 			<Item Name="Z900_navX_Internal_StartLoop.vi" Type="VI" URL="../IO/Internal/Z900_navX_Internal_StartLoop.vi"/>
+			<Item Name="Z900_navX_Internal_TimeoutCheck.vi" Type="VI" URL="../IO/Internal/Z900_navX_Internal_TimeoutCheck.vi"/>
 			<Item Name="Z900_navX_Internal_UpdateDevice.vi" Type="VI" URL="../IO/Internal/Z900_navX_Internal_UpdateDevice.vi"/>
 			<Item Name="Z900_navX_Internal_ZeroDisplacement.vi" Type="VI" URL="../IO/Internal/Z900_navX_Internal_ZeroDisplacement.vi"/>
 			<Item Name="Z900_navX_Internal_ZeroVelocity.vi" Type="VI" URL="../IO/Internal/Z900_navX_Internal_ZeroVelocity.vi"/>
@@ -101,6 +106,7 @@ By James R Parks (FRC Team 900)</Property>
 		<Item Name="Z900_navX_DeviceTypeDef.ctl" Type="VI" URL="../TypeDefs/Z900_navX_DeviceTypeDef.ctl"/>
 		<Item Name="Z900_navX_IntegrationControlRegisters.ctl" Type="VI" URL="../TypeDefs/Z900_navX_IntegrationControlRegisters.ctl"/>
 		<Item Name="Z900_navX_InterfaceTypeDef.ctl" Type="VI" URL="../TypeDefs/Z900_navX_InterfaceTypeDef.ctl"/>
+		<Item Name="Z900_navX_InternalTimoutStatusTypeDef.ctl" Type="VI" URL="../TypeDefs/Z900_navX_InternalTimoutStatusTypeDef.ctl"/>
 		<Item Name="Z900_navX_NotifyPacketTypeDef.ctl" Type="VI" URL="../TypeDefs/Z900_navX_NotifyPacketTypeDef.ctl"/>
 		<Item Name="Z900_navX_ProtocolTypeDef.ctl" Type="VI" URL="../TypeDefs/Z900_navX_ProtocolTypeDef.ctl"/>
 		<Item Name="Z900_navX_SerialStreamTypeDef.ctl" Type="VI" URL="../TypeDefs/Z900_navX_SerialStreamTypeDef.ctl"/>
