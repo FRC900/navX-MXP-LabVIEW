@@ -98,9 +98,9 @@ DirectoryIndex index.htm
 				<Item Name="navX Example v2.vi" Type="VI" URL="../Examples/Functions/navX Example v2.vi"/>
 			</Item>
 		</Item>
+		<Item Name="_NI WPI Serial USB.lvlib" Type="Library" URL="../_NI WPI Serial USB/_NI WPI Serial USB.lvlib"/>
 		<Item Name="navX Library v1 (deprecated).lvlib" Type="Library" URL="../navX Library v1 (deprecated)/navX Library v1 (deprecated).lvlib"/>
 		<Item Name="navX Library v2.lvlib" Type="Library" URL="../navX Library v2/navX Library v2.lvlib"/>
-		<Item Name="NI WPI Serial USB.lvlib" Type="Library" URL="../NI WPI/NI WPI Serial USB.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
@@ -228,6 +228,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E4090123-1EDA-423B-845C-44DDEB9C7B3C}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.minor" Type="Int">3</Property>
 				<Property Name="Bld_version.patch" Type="Int">254</Property>
@@ -240,7 +241,7 @@ DirectoryIndex index.htm
 				<Property Name="Destination[1].path" Type="Path">/home/lvuser/natinst/bin</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{15B7A2BE-5E17-4D7B-AB43-329DFEA25843}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{3415A176-7099-44C1-A747-1C9C5CE100F6}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT roboRIO Target/navX Library v2.lvlib</Property>
@@ -251,13 +252,12 @@ DirectoryIndex index.htm
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/RT roboRIO Target/NI WPI Serial USB.lvlib</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/RT roboRIO Target/_NI WPI Serial USB.lvlib</Property>
 				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
 				<Property Name="TgtF_companyName" Type="Str">FRC 900</Property>
-				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">navX Library v2.lvlibp</Property>
 				<Property Name="TgtF_internalName" Type="Str">navX Library v2.lvlibp</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2015 FRC 900</Property>
@@ -285,17 +285,19 @@ DirectoryIndex index.htm
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{72B9EFF4-8BF5-4EA5-9323-35CCFBDD12A6}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.minor" Type="Int">3</Property>
 				<Property Name="Bld_version.patch" Type="Int">254</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/home/lvuser/natinst/bin/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/home/lvuser/natinst/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{15B7A2BE-5E17-4D7B-AB43-329DFEA25843}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{3415A176-7099-44C1-A747-1C9C5CE100F6}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT roboRIO Target/navX Library v2.lvlib</Property>
@@ -303,11 +305,22 @@ DirectoryIndex index.htm
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/RT roboRIO Target/NI WPI Serial USB.lvlib</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/RT roboRIO Target/_NI WPI Serial USB.lvlib</Property>
 				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/RT roboRIO Target/Examples</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Exclude</Property>
+				<Property Name="Source[3].type" Type="Str">Container</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/RT roboRIO Target/navX Library v1 (deprecated).lvlib</Property>
+				<Property Name="Source[4].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Exclude</Property>
+				<Property Name="Source[4].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">5</Property>
 			</Item>
 			<Item Name="navX Library v2.zip" Type="Zip File">
 				<Property Name="Absolute[0]" Type="Bool">false</Property>
@@ -318,7 +331,7 @@ DirectoryIndex index.htm
 				<Property Name="DestinationName[0]" Type="Str">Destination Directory</Property>
 				<Property Name="IncludedItemCount" Type="Int">2</Property>
 				<Property Name="IncludedItems[0]" Type="Ref">/RT roboRIO Target/navX Library v2.lvlib</Property>
-				<Property Name="IncludedItems[1]" Type="Ref">/RT roboRIO Target/NI WPI Serial USB.lvlib</Property>
+				<Property Name="IncludedItems[1]" Type="Ref">/RT roboRIO Target/_NI WPI Serial USB.lvlib</Property>
 				<Property Name="IncludeProject" Type="Bool">false</Property>
 				<Property Name="Path[0]" Type="Path">../../builds/navX Library/navX Library v2.zip</Property>
 				<Property Name="ZipBase" Type="Str">NI_zipbasevirtual</Property>
