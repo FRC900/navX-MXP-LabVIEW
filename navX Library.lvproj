@@ -100,6 +100,7 @@ DirectoryIndex index.htm
 		</Item>
 		<Item Name="_NI WPI Serial USB.lvlib" Type="Library" URL="../_NI WPI Serial USB/_NI WPI Serial USB.lvlib"/>
 		<Item Name="navX Library v1 (deprecated).lvlib" Type="Library" URL="../navX Library v1 (deprecated)/navX Library v1 (deprecated).lvlib"/>
+		<Item Name="navX Library v2 - Action Packed.lvlib" Type="Library" URL="../navX Library v2 - Action Packed/navX Library v2 - Action Packed.lvlib"/>
 		<Item Name="navX Library v2.lvlib" Type="Library" URL="../navX Library v2/navX Library v2.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
