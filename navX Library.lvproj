@@ -93,6 +93,7 @@ DirectoryIndex index.htm
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="Examples" Type="Folder">
 			<Item Name="Functions" Type="Folder">
+				<Item Name="navX AE Example v1 .vi" Type="VI" URL="../Examples/Functions/navX AE Example v1 .vi"/>
 				<Item Name="navX Example v1 (deprecated).vi" Type="VI" URL="../Examples/Functions/navX Example v1 (deprecated).vi"/>
 				<Item Name="navX Example v2 - Dual navX.vi" Type="VI" URL="../Examples/Functions/navX Example v2 - Dual navX.vi"/>
 				<Item Name="navX Example v2.vi" Type="VI" URL="../Examples/Functions/navX Example v2.vi"/>
