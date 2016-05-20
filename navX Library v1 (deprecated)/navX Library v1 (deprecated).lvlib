@@ -49,7 +49,7 @@ Totes Ma Gotes</Property>
 
 </Property>
 	<Item Name="Friends List" Type="Friends List">
-		<Item Name="NI WPI Serial USB.lvlib" Type="Friended Library" URL="../../NI WPI/NI WPI Serial USB.lvlib"/>
+		<Item Name="_NI WPI Serial USB.lvlib" Type="Friended Library" URL="../../_NI WPI Serial USB/_NI WPI Serial USB.lvlib"/>
 	</Item>
 	<Item Name="COMMON" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
